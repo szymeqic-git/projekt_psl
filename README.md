@@ -33,3 +33,15 @@ Systemy **SCADA** są szczególnie istotne przy _skomplikowanych, wielkoskalowyc
 * [copadata.com](https://www.copadata.com/pl/product/zenon-software-platform-platforma-programowa-firmy-copa-data/wizualizacja-kontrola/co-to-jest-scada/)
 * [iautomatyka.pl](https://iautomatyka.pl/co-to-jest-scada-i-co-daje-wizualizacja-procesow-przemyslowych/)
 * [wikipedia.pl](https://pl.wikipedia.org/wiki/SCADA)
+
+## 2\. Wymiana danych
+
+![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/d32f02a0d256a3cb3115a531a950927cc46e02269df37cbd.png)
+
+#### Poziomy systemu
+
+> 0. Na najniższym poziomie _0_ znajdują się urządzenia _wykonawcze_ oraz _pomiarowe_
+> 1. Pierwszy poziom składa się ze sterowników **PLC** 
+> 2. Poziom drugi to komputery nadzorujące, odpowiedzialne za **HMI** oraz przekazanie informacji do komputerów koordynujących
+> 3. Jednostki poziomu trzeciego nie wplywają bezpośrednio za działanie elementów wykonawczych, ale moniturują całokształt produkcji
+> 4. Najwyższy poziom jest odpowiedzialny za planowanie produkcji i zbiorową analizę danych

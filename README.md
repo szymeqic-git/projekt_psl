@@ -80,7 +80,7 @@ Typically, the HMI software package for a SCADA system includes a drawing tool t
 > 9. **Telecommunications:** SCADA systems help manage telecommunications infrastructure, including cell towers, ensuring network availability and performance.
 
 #### Here are a few key SCADA system applications, and their main features:
-> **Asix SCADA:**
+## Asix SCADA:
 >     • **User-Friendly Interface:** Asix offers a user-friendly graphical interface that allows users to quickly understand and control processes.
 >     • **Real-Time Data Collection:** The application allows for real-time data collection from various devices and processes, enabling continuous monitoring and response to changes.
 >     • **Integrated Diagnostic Tools:** Asix provides advanced diagnostic tools that assist in quickly identifying and resolving issues within the system.

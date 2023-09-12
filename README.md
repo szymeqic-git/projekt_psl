@@ -68,7 +68,7 @@ The HMI is the central control point for plant operations, allowing operators to
 Typically, the HMI software package for a SCADA system includes a drawing tool that operators or maintenance personnel can use to customize how these data points are presented in the interface. These representations can be as straightforward as an on-screen traffic light, which mirrors the status of a real traffic light in the field, or as intricate as a multi-projector display illustrating the positions of all elevators in a skyscraper or the locations of all trains on a railway network.
 
 ## 4\. SCADA Applications
-#### SCADA (Supervisory Control and Data Acquisition) systems are employed across various industries and industrial sectors for the purposes of monitoring, controlling, and collecting data from processes.
+#### SCADA (Supervisory Control and Data Acquisition) systems are employed across various industries and industrial sectors for the purposes of monitoring, controlling, and collecting data from processes. Here are some common applications:
 
 ##### Źródła: 
 

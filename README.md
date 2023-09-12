@@ -88,6 +88,24 @@ Typically, the HMI software package for a SCADA system includes a drawing tool t
 > **Integrated Diagnostic Tools:** Asix provides advanced diagnostic tools that assist in quickly identifying and resolving issues within the system.
 > 
 > **Support for Various Communication Protocols:** It supports various communication protocols, making it easy to connect with different devices and systems.
+>
+#### Wonderware InTouch:
+> **Process Visualization:** Wonderware InTouch provides advanced process visualization capabilities, enabling the creation of interactive user interfaces.
+> 
+> **Integration with Other Systems:**  It allows integration with other systems such as databases, enabling comprehensive data management.
+> 
+> **Scalability:** The system is scalable, allowing customization for different sizes and types of installations.
+> 
+> **Alarm and Event Management:** It offers advanced tools for managing alarms and events, facilitating quick responses to failures and anomalies.
+>
+#### Siemens WinCC:
+> **Integration with Industrial Automation Systems:** Siemens WinCC is often used in industrial automation, allowing seamless integration with industrial automation devices.
+> 
+> **Advanced Reporting Features:**  It offers advanced reporting and data analysis tools, making data-driven decision-making easier.
+> 
+> **Security and Availability:** It ensures a high level of system security and availability, crucial in critical industrial applications.
+> 
+> **Support for Distributed Systems:** It can handle distributed SCADA systems, which is useful for large and complex installations.
 > 
 ##### Źródła: 
 

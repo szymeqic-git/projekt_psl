@@ -69,7 +69,15 @@ Typically, the HMI software package for a SCADA system includes a drawing tool t
 
 ## 4\. SCADA Applications
 #### SCADA (Supervisory Control and Data Acquisition) systems are employed across various industries and industrial sectors for the purposes of monitoring, controlling, and collecting data from processes. Here are some common applications:
-
+> 1. **Industrial Process Control:** SCADA systems are extensively used in industrial settings to monitor and control manufacturing and production processes. They ensure that equipment and machinery operate efficiently and within specified parameters.
+> 2. **Utilities Management:** SCADA is employed in managing utility services such as water treatment, wastewater management, and power distribution. It helps optimize resource usage and maintain the quality of services.
+> 3. **Energy Management:** SCADA systems play a crucial role in monitoring and controlling energy production and distribution, including power generation plants, substations, and smart grids.
+> 4. **Oil and Gas Industry:** In the oil and gas sector, SCADA systems are used for monitoring and controlling pipelines, drilling operations, and refining processes. They aid in the safe and efficient extraction and distribution of resources.
+> 5. **Environmental Monitoring:** SCADA systems are utilized in environmental applications like air quality monitoring, weather stations, and pollution control. They help gather data for regulatory compliance and environmental protection.
+> 6. **Transportation and Infrastructure:** SCADA systems are employed in managing transportation systems, including traffic control, railway operations, and airport management. They ensure smooth and safe transportation services.
+> 7. **Building Automation:** In commercial and residential buildings, SCADA systems are used for HVAC (Heating, Ventilation, and Air Conditioning) control, lighting management, and security systems.
+> 8. **Water and Wastewater Management:** SCADA systems are vital for monitoring and controlling water treatment plants, distribution networks, and wastewater treatment facilities, ensuring the supply of clean water and proper sanitation.
+> 9. **Telecommunications:** SCADA systems help manage telecommunications infrastructure, including cell towers, ensuring network availability and performance.
 ##### Źródła: 
 
 * [copadata.com](https://www.copadata.com/pl/product/zenon-software-platform-platforma-programowa-firmy-copa-data/wizualizacja-kontrola/co-to-jest-scada/)

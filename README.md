@@ -43,8 +43,18 @@ Systemy **SCADA** są szczególnie istotne przy _skomplikowanych, wielkoskalowyc
 > 3. Jednostki poziomu trzeciego nie wplywają bezpośrednio za działanie elementów wykonawczych, ale moniturują całokształt produkcji
 > 4. Najwyższy poziom jest odpowiedzialny za planowanie produkcji i zbiorową analizę danych
 
+## 3\. SCADA System Components
+> 1. Remote Terminal Unit (RTU) - is used to monitor and control a variety of devices and systems, usually in an industrial environment. They are similar to a programmable logic circuit (PLC) but have more in-depth functionality. These intelligent controllers assert supervisory control over other devices in order to automate industrial processes.
+> 2. Radio/Modems - allows for the transfer of data (usually wireless) across a large geographic area. A key component of a SCADA system is the ability to send and receive real-time data. Radio/modems are an efficient and reliable mode of accomplishing this feat.
+> 3. Sensors/Transducers - sensor is a type of transducer that can receive a signal from a physical system. It communicates information through the use of telemetry (and a control system). The sensor in a SCADA system serves to help operators measure and collect data from a remote location.
+> 4. Repeaters - Repeaters receive and retransmit signals. They are able to transmit signals over large distances, even with the presence of a physical obstruction.
+> 5. SCADA Master Station - In small SCADA systems, the master station is a single computer that communicates with controls systems and other equipment. In larger SCADA systems, this can include multiple servers, software applications, remote terminal units (RTUs), and programmable logic circuits (PLCs).
+> 6. SCADA Monitoring Software - SCADA Monitoring Software is simply a set of data instructions that instructs the system how to interact with all of the hardware and other components. It is a way to easily monitor and control the performance of a SCADA system.
+> 7. Human Machine Interface (HMI) - The human-machine interface (HMI), as the name suggests, allows human personnel to interact with the hardware and software of a SCADA system. The HMI presents live data and measurements to operators and allows for the remote operation of the plant.
+
 ##### Źródła: 
 
 * [copadata.com](https://www.copadata.com/pl/product/zenon-software-platform-platforma-programowa-firmy-copa-data/wizualizacja-kontrola/co-to-jest-scada/)
 * [iautomatyka.pl](https://iautomatyka.pl/co-to-jest-scada-i-co-daje-wizualizacja-procesow-przemyslowych/)
 * [wikipedia.pl](https://pl.wikipedia.org/wiki/SCADA)
+* [htt.io](https://htt.io/resources/scada-basics/)

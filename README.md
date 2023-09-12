@@ -147,15 +147,15 @@ Should perform specific tasks abbreviated as MMI (known as HMI) and SCADA
 > - scalable (possibility of easy expansion)
 > - updateable
 ### Visualization system tasks
-The visualization, control, and process monitoring system installed on the facility should provide:
-Communication with automation equipment (e.g., PLC controllers) and ensure reliable operation.
-Real-time process visualization (graphical representation of the process).
-Intervention in the process by authorized personnel.
-Comprehensive analysis of selected process parameters.
-Data archiving and presentation of current data (trends) and reporting (daily and periodic).
-Generation of informative, warning, and alarm messages.
-Data exchange with other applications (e.g., spreadsheets and databases).
-Scalability (i.e., the ability to expand) of the control system.
+**The visualization, control, and process monitoring system installed on the facility should provide:
+Communication with automation equipment (e.g., PLC controllers) and ensure reliable operation.**
+> Real-time process visualization (graphical representation of the process).
+> Intervention in the process by authorized personnel.
+> Comprehensive analysis of selected process parameters.
+> Data archiving and presentation of current data (trends) and reporting (daily and periodic).
+> Generation of informative, warning, and alarm messages.
+> Data exchange with other applications (e.g., spreadsheets and databases).
+> Scalability (i.e., the ability to expand) of the control system.
 ##### Źródła: 
 
 * [copadata.com](https://www.copadata.com/pl/product/zenon-software-platform-platforma-programowa-firmy-copa-data/wizualizacja-kontrola/co-to-jest-scada/)

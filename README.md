@@ -81,10 +81,10 @@ Typically, the HMI software package for a SCADA system includes a drawing tool t
 
 #### Here are a few key SCADA system applications, and their main features:
 > 1. **Asix SCADA:**
->     • **User-Friendly Interface:** Asix offers a user-friendly graphical interface that allows users to quickly understand and control processes.
->     • **Real-Time Data Collection:** The application allows for real-time data collection from various devices and processes, enabling continuous monitoring and response to changes.
->     • **Integrated Diagnostic Tools:** Asix provides advanced diagnostic tools that assist in quickly identifying and resolving issues within the system.
->     • **Support for Various Communication Protocols:** It supports various communication protocols, making it easy to connect with different devices and systems.
+>     >• **User-Friendly Interface:** Asix offers a user-friendly graphical interface that allows users to quickly understand and control processes.
+>     >• **Real-Time Data Collection:** The application allows for real-time data collection from various devices and processes, enabling continuous monitoring and response to changes.
+>     >• **Integrated Diagnostic Tools:** Asix provides advanced diagnostic tools that assist in quickly identifying and resolving issues within the system.
+>     >• **Support for Various Communication Protocols:** It supports various communication protocols, making it easy to connect with different devices and systems.
 ##### Źródła: 
 
 * [copadata.com](https://www.copadata.com/pl/product/zenon-software-platform-platforma-programowa-firmy-copa-data/wizualizacja-kontrola/co-to-jest-scada/)

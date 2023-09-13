@@ -8,6 +8,7 @@
 * [Operating Station](#operating-station)
 * [SCADA Distributed Control System](#scada-distributed-control-system)
 * [SCADA Databases](#scada-databases)
+* [Sources](#sources)
   
 
 
@@ -172,7 +173,7 @@ Communication with automation equipment (e.g., PLC controllers) and ensure relia
 
 ## SCADA Distributed Control System
 ## SCADA Databases
-##### Źródła: 
+## Sources: 
 
 * [copadata.com](https://www.copadata.com/pl/product/zenon-software-platform-platforma-programowa-firmy-copa-data/wizualizacja-kontrola/co-to-jest-scada/)
 * [iautomatyka.pl](https://iautomatyka.pl/co-to-jest-scada-i-co-daje-wizualizacja-procesow-przemyslowych/)

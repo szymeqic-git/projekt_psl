@@ -7,7 +7,7 @@
 * [SCADA Applications](#scada-applications)
 * [Operating Station](#operating-station)
 * [SCADA Distributed Control System](#scada-distributed-control-system)
-* [SCADA Databases](#scada-database)
+* [SCADA Databases](#scada-databases)
   
 
 
@@ -43,7 +43,7 @@ Systemy **SCADA** są szczególnie istotne przy _skomplikowanych, wielkoskalowyc
 
 ![](https://cdn.discordapp.com/attachments/982375180401770526/1150086602945724416/panel-hmi-zamontowany-na-maszynie-automatyka-webhmi-scada4.jpg)
 
-## Data Exchange
+## Data Exchange in SCADA
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/d32f02a0d256a3cb3115a531a950927cc46e02269df37cbd.png)
 

@@ -1,15 +1,17 @@
 # SCADA Systems
 
 ## Table of Contents
-* [What is SCADA?](#1\.what-is-scada)
-* [Data Exchange in SCADA](#2\.data-exchange-in-scada)
-* [SCADA System Components](#3\.scada-system-components)
-* [SCADA Applications](#4\.scada-applications)
-* [Operating Station](#5\.operating-station)
+* [What is SCADA?](#what-is-scada)
+* [Data Exchange in SCADA](#data-exchange-in-scada)
+* [SCADA System Components](#scada-system-components)
+* [SCADA Applications](#scada-applications)
+* [Operating Station](#operating-station)
+* [SCADA Distributed Control System](#scada-distributed-control-system)
+* [SCADA Databases](#scada-database)
   
 
 
-## 1\.What is SCADA?
+## What is SCADA?
 
 ---
 
@@ -41,7 +43,7 @@ Systemy **SCADA** są szczególnie istotne przy _skomplikowanych, wielkoskalowyc
 
 ![](https://cdn.discordapp.com/attachments/982375180401770526/1150086602945724416/panel-hmi-zamontowany-na-maszynie-automatyka-webhmi-scada4.jpg)
 
-## 2\.Data Exchange
+## Data Exchange
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/d32f02a0d256a3cb3115a531a950927cc46e02269df37cbd.png)
 
@@ -54,7 +56,7 @@ Systemy **SCADA** są szczególnie istotne przy _skomplikowanych, wielkoskalowyc
 > 3. Jednostki poziomu trzeciego nie wplywają bezpośrednio za działanie elementów wykonawczych, ale moniturują całokształt produkcji
 > 4. Najwyższy poziom jest odpowiedzialny za planowanie produkcji i zbiorową analizę danych
 
-## 3\.SCADA System Components
+## SCADA System Components
 #### Remote Terminal Unit (RTU)
 >Remote terminal units, abbreviated as RTUs, establish connections with sensors and actuators within a given process and are integrated into the supervisory computer system via a network. RTUs possess inherent control capabilities and frequently adhere to the IEC 61131->3 standard for programming, supporting automation through methods such as ladder logic, function block diagrams, or a range of other programming languages. In remote areas where local infrastructure is scarce or nonexistent, it is not uncommon to encounter RTUs that >rely on compact solar power systems for energy, utilize radio, GSM, or satellite communication methods, and are built to endure harsh environmental conditions, withstanding temperatures ranging from -20°C to +70°C, or even as extreme as -40°C to +85°C, without the >need for additional heating or cooling equipment.
 #### Programmable logic controllers (PLC)
@@ -97,7 +99,7 @@ While SCADA systems may offer specialized features tailored to various industrie
 > 7. Reporting: Reporting is a valuable aspect of SCADA system operations. It involves generating reports on system status, process performance, and customized reports tailored to specific application requirements. These reports provide insights into the functioning and efficiency of the SCADA system.
 
 
-## 4\.SCADA Applications
+## SCADA Applications
 #### SCADA (Supervisory Control and Data Acquisition) systems are employed across various industries and industrial sectors for the purposes of monitoring, controlling, and collecting data from processes. Here are some common applications:
 > 1. **Industrial Process Control:** SCADA systems are extensively used in industrial settings to monitor and control manufacturing and production processes. They ensure that equipment and machinery operate efficiently and within specified parameters.
 > 2. **Utilities Management:** SCADA is employed in managing utility services such as water treatment, wastewater management, and power distribution. It helps optimize resource usage and maintain the quality of services.
@@ -137,7 +139,7 @@ While SCADA systems may offer specialized features tailored to various industrie
 > 
 > **Support for Distributed Systems:** It can handle distributed SCADA systems, which is useful for large and complex installations.
 >
-## 5\.Operating Station
+## Operating Station
 > It is a device that enables the operator to track the technological process and influence its course (operator station called is sometimes a visualization station)
 >Destiny:
 >It is to enable the operator to contact the automation system installed on object
@@ -167,6 +169,9 @@ Communication with automation equipment (e.g., PLC controllers) and ensure relia
 > 5. Generation of informative, warning, and alarm messages.
 > 6. Data exchange with other applications (e.g., spreadsheets and databases).
 > 7. Scalability (i.e., the ability to expand) of the control system.
+
+## SCADA Distributed Control System
+## SCADA Databases
 ##### Źródła: 
 
 * [copadata.com](https://www.copadata.com/pl/product/zenon-software-platform-platforma-programowa-firmy-copa-data/wizualizacja-kontrola/co-to-jest-scada/)

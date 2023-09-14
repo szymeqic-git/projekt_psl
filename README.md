@@ -187,6 +187,27 @@ Communication with automation equipment (e.g., PLC controllers) and ensure relia
 > Both DCS (Distributed Control Systems) and SCADA (Supervisory Control and Data Acquisition) systems are undergoing transformations aligned with the broader digital transformation trends, including the Industrial Internet of Things (IIoT). This transformation aims to enhance industrial automation capabilities and deliver greater value to process manufacturers.
 End users are presenting new challenges, pushing vendors to rethink operational technology (OT) automation systems by incorporating Commercial Off-The-Shelf (COTS) hardware and software. They seek automation systems that outperform current DCSs in terms of reliability, security, and overall user value. Additionally, end users are looking for systems that allow them to preserve their control strategies when transitioning to upgraded or new systems. Modularized hardware components and decoupled software from hardware and I/O are also desired to facilitate incremental upgrades and execution flexibility within the system.
 
+### Expantion of SCADA
+> SCADA systems have evolved through four generations:
+
+> * First generation ("Monolithic"):\
+> Early SCADA systems relied on large minicomputers and operated independently with no connectivity to other systems. Communication protocols were proprietary, and redundancy was achieved through backup mainframe systems.
+ 
+> * Second generation ("Distributed"):\
+> SCADA information and command processing became distributed across multiple stations connected through a LAN. Each station had specific tasks, reducing costs compared to the first generation. Network protocols were still proprietary, and security was often overlooked.
+
+> * Third generation ("Networked"):\
+> Similar to distributed architecture, SCADA systems were connected through communication protocols, often spanning multiple LAN networks. This allowed for cost-effective solutions in large-scale systems.
+
+> * Fourth generation ("Web-based"):\
+> The growth of the internet led to SCADA systems implementing web technologies, enabling users to access data, exchange information, and control processes from anywhere in the world through web socket connections. Web SCADA systems use internet browsers like Google Chrome and Mozilla Firefox as graphical user interfaces, simplifying client-side installation and facilitating access from various platforms, including servers, PCs, laptops, tablets, and mobile phones.
+
+
+
+
+
+
+> 
 ## SCADA Databases
 Automation systems often require efficient data storage and retrieval. Production data, including machine OEE ( Overall equipment effectiveness ), operator log-ins, product and password management, and historical machine information, is typically managed through interactions with a database, which essentially is an organised data collection. This data is stored for easy categorisation and future access and is designed in away to create meaningful correlations.\
 

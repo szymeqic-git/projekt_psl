@@ -1,0 +1,26 @@
+## Table of Contents
+* [What is **SCADA**?](chapter_1.md)
+* [Data Exchange in **SCADA**](chapter_2.md)
+* [**SCADA** System Components](chapter_3.md)
+* [**SCADA** Applications](chapter_4.md)
+* [Operating Station](chapter_5.md)
+* [**SCADA** and Distributed Control System](chapter_6.md)
+* [**SCADA** Databases](chapter_7.md)
+* [Authors](chapter_9.md)
+  
+## Sources: 
+
+* [copadata.com](https://www.copadata.com/pl/product/zenon-software-platform-platforma-programowa-firmy-copa-data/wizualizacja-kontrola/co-to-jest-SCADA/)
+* [iautomatyka.pl](https://iautomatyka.pl/co-to-jest-SCADA-i-co-daje-wizualizacja-procesow-przemyslowych/)
+* [**SCADA** wikipedia.pl](https://pl.wikipedia.org/wiki/SCADA)
+* [htt.io](https://htt.io/resources/SCADA-basics/)
+* [techtarget.com](https://www.techtarget.com/whatis/definition/SCADA-supervisory-control-and-data-acquisition)
+* [tutorialspoint.com](https://www.tutorialspoint.com/difference-between-dcs-and-SCADA)
+* [dcs wikipedia.com](https://en.wikipedia.org/wiki/Distributed_control_system)
+* [yokogawa.com](https://www.yokogawa.com/eu/library/resources/white-papers/what-are-the-roles-of-dcs-and-SCADA-in-digital-transformation/)
+* [automation.com](https://www.automation.com/en-us/articles/september-2021/roles-dcs-SCADA-digital-transformation)
+* [Lamb, Frank. 2013. “Software.” Chap. 6 in Industrial Automation: Hands-On. 1st ed. New York: McGraw-Hill Education.](https://www-1accessengineeringlibrary-1com-1000022uo0007.han.bg.pg.edu.pl/content/book/9780071816458/chapter/chapter6)
+* [laquis**SCADA**.com](https://laquisSCADA.com/blogger/database-how-to-create-a-database/)
+* [d2000.ipesoft.com](https://d2000.ipesoft.com/blog/databases-in-**SCADA**-and-mes-systems/)
+* [tesla**SCADA**.com](https://teslaSCADA.com/HTML/databases2.html)
+* [electrical-engineering-portal.com](https://electrical-engineering-portal.com/three-generations-of-SCADA-system-architectures)

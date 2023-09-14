@@ -9,6 +9,7 @@
 * [SCADA and Distributed Control System](#scada-and-distributed-control-system)
 * [SCADA Databases](#scada-databases)
 * [Sources](#sources)
+* [Authors](#authors)
   
 
 
@@ -50,68 +51,27 @@ Tasks of **SCADA** systems:
 
 #### System levels
 
-
-> 0. On the lowest level there are _executive_ and _measuring_ devices
+>      0. On the lowest level there are _executive_ and _measuring_ devices
+>
 > 1. First level cosists of **PLC** controllers 
 > 2. Level two are supervisory computers, responsible for **HMI** and transferring information to coordinating computers
 > 3. Level third’s units do not have direct influence on executive devices’ work but they monitor overall production
 > 4. The highest level is responsible for production plan and collective data analysis
 
-
 ## SCADA System Components
 #### Remote Terminal Unit (RTU)
-
-Remote terminal units, abbreviated as **RTUs**, establish connections with sensors and actuators within a given process and are integrated into the supervisory computer system via a network. 
-**RTUs** possess inherent control capabilities and frequently adhere to the _IEC 61131->3_ standard for programming, supporting automation through methods such as:
-* ladder logic
-* function block diagrams
-* a range of other programming languages.
-
-In remote areas where local infrastructure is scarce or nonexistent, it is not uncommon to encounter **RTUs** that:
-* rely on compact solar power systems for energy
-* utilize radio, GSM, or satellite communication methods
-* are built to endure harsh environmental conditions, withstanding temperatures as extreme as -40°C to +85°C, without the need for additional heating or cooling equipment.
-  
+>Remote terminal units, abbreviated as RTUs, establish connections with sensors and actuators within a given process and are integrated into the supervisory computer system via a network. RTUs possess inherent control capabilities and frequently adhere to the IEC 61131->3 standard for programming, supporting automation through methods such as ladder logic, function block diagrams, or a range of other programming languages. In remote areas where local infrastructure is scarce or nonexistent, it is not uncommon to encounter RTUs that >rely on compact solar power systems for energy, utilize radio, GSM, or satellite communication methods, and are built to endure harsh environmental conditions, withstanding temperatures ranging from -20°C to +70°C, or even as extreme as -40°C to +85°C, without the >need for additional heating or cooling equipment.
 #### Programmable logic controllers (PLC)
-
-These devices, commonly referred to as **PLCs**, interface with sensors and actuators within industrial processes and establish connections with a central supervisory system. In the realm of factory automation, **PLCs** are typically equipped with high-speed links to the **SCADA** system. In remote scenarios, such as in the context of a large water treatment facility, **PLCs** can either directly link up with **SCADA** via:
-
-* wireless connections
-*  _(more frequently)_, employ an **RTU** to manage communication.
-
-  
-**PLCs** are purpose-built for control purposes and played a pivotal role in the development of the _IEC 61131-3_ programming languages. They are often preferred for cost-effective reasons in remote installations with a significant number of input and output connections, as opposed to relying solely on an **RTU**.
-
+>These devices, commonly referred to as PLCs, interface with sensors and actuators within industrial processes and establish connections with a central supervisory system. In the realm of factory automation, PLCs are typically equipped with high-speed links to the >SCADA system. In remote scenarios, such as in the context of a large water treatment facility, PLCs can either directly link up with SCADA via wireless connections or, more frequently, employ an RTU to manage communication. PLCs are purpose-built for control purposes >and played a pivotal role in the development of the IEC 61131-3 programming languages. They are often preferred for cost-effective reasons in remote installations with a significant number of input and output connections, as opposed to relying solely on an RTU.
 #### Communication infrastructure - Radio/Modems & Sensors/Transducers & Repeaters
-Radio/Modems allows for the transfer of data (usually wireless) across a large geographic area. A key component of a **SCADA** system is the ability to send and receive real-time data. Radio/modems are an efficient and reliable mode of accomplishing this feat.
+>Radio/Modems allows for the transfer of data (usually wireless) across a large geographic area. A key component of a SCADA system is the ability to send and receive real-time data. Radio/modems are an efficient and reliable mode of accomplishing this feat.
+>Sensor is a type of transducer that can receive a signal from a physical system. It communicates information through the use of telemetry (and a control system). The sensor in a SCADA system serves to help operators measure and collect data from a remote location.
+>Repeaters receive and retransmit signals. They are able to transmit signals over large distances, even with the presence of a physical obstruction.
+>Traditional SCADA systems have traditionally relied on a mix of radio and wired connections, although larger systems like those used in railways and power stations often opt for SONET/SDH technology. The remote monitoring and management aspect of a SCADA system is >commonly referred to as telemetry. Some users prefer to have their SCADA data transmitted over their existing corporate networks or share the network with other applications. However, remnants of older, low-bandwidth protocols are still in use.
 
-* _Sensor_ is a type of transducer that can receive a signal from a physical system. It communicates information through the use of _telemetry_ (and a control system). The sensor in a **SCADA** system serves to help operators measure and collect data from a remote location.
-* _Repeaters_ receive and retransmit signals. They are able to transmit signals over large distances, even with the presence of a physical obstruction.
+>SCADA protocols are designed to be highly efficient and compact. Many are designed to transmit data only when the master station requests information from the RTU. Examples of legacy SCADA protocols include Modbus RTU, RP-570, Profibus, and Conitel. While these >communication protocols are specific to SCADA vendors, they are widely adopted and utilized, with the exception of Modbus, which has been made open by Schneider Electric. Standardized protocols such as IEC 60870-5-101 or 104, IEC 61850, and DNP3 are recognized by all >major SCADA vendors. Many of these protocols have been extended to operate over TCP/IP. However, it's important to note that while conventional networking standards like TCP/IP are used, they serve fundamentally different purposes from industrial networking.
 
-Traditional **SCADA** systems have traditionally relied on a mix of radio and wired connections, although larger systems like those used in railways and power stations often opt for **SONET**/**SDH** technology. The remote monitoring and management aspect of a **SCADA** system is commonly referred to as _telemetry_. Some users prefer to have their **SCADA** data transmitted over their existing corporate networks or share the network with other applications. However, remnants of older, low-bandwidth protocols are still in use.
-
-**SCADA** protocols are designed to be highly efficient and compact. Many are designed to transmit data only when the master station requests information from the **RTU**. Examples of legacy **SCADA** protocols include:
-* Modbus RTU
-* RP-570
-* Profibus
-* Conitel
-
-While these communication protocols are specific to **SCADA** vendors, they are widely adopted and utilized, with the exception of Modbus, which has been made open by Schneider Electric. Standardized protocols such as:
-* _IEC 60870-5-101_ 
-* _IEC 60870-5-104_
-* _IEC 61850_
-* _DNP3_
-
-are recognized by all major **SCADA** vendors. Many of these protocols have been extended to operate over TCP/IP. However, it's important to note that while conventional networking standards like TCP/IP are used, they serve fun_damentally different purposes from industrial networking.
-
-To meet increasing security requirements, such as those outlined by the North American Electric Reliability Corporation (NERC) and critical infrastructure protection (CIP) regulations in the US, **satellite-based** communication is becoming more prevalent. This approach offers advantages such as:
-* self-contained infrastructure (independent of public telephone circuits)
-* built-in encryption
-* tailored engineering for **SCADA** system reliability and availability.
-
-Modern carrier-class systems provide the necessary quality of service for **SCADA** applications, whereas earlier experiences with consumer-grade **VSAT** were less satisfactory.
-
-
+>To meet increasing security requirements, such as those outlined by the North American Electric Reliability Corporation (NERC) and critical infrastructure protection (CIP) regulations in the US, satellite-based communication is becoming more prevalent. This approach >offers advantages such as self-contained infrastructure (independent of public telephone circuits), built-in encryption, and tailored engineering for SCADA system reliability and availability. Modern carrier-class systems provide the necessary quality of service for >SCADA applications, whereas earlier experiences with consumer-grade VSAT were less satisfactory.
 #### SCADA Supervisory Computers
 >In small SCADA systems, the master station is a single computer that communicates with controls systems and other equipment. In larger SCADA systems, this can include multiple servers, software applications, remote terminal units (RTUs), and programmable logic >circuits (PLCs). This forms the central nucleus of the SCADA system, responsible for both gathering data from the industrial process and dispatching control instructions to the connected field devices. It encompasses the computer hardware and software that manages >communication with the field connection controllers, namely RTUs and PLCs, and also encompasses the HMI software running on operator workstations. In smaller-scale SCADA setups, the supervisory computer may consist of a single PC, in which case the HMI is integrated >into this same computer. Conversely, larger SCADA systems often feature a master station with multiple HMIs hosted on client computers, numerous servers for data collection, distributed software applications, and contingency sites for disaster recovery. To enhance >system reliability, these multiple servers are frequently configured in a dual-redundant or hot-standby arrangement, ensuring continuous control and monitoring even in the event of a server malfunction or failure.
 #### SCADA Monitoring Software
@@ -228,6 +188,31 @@ Communication with automation equipment (e.g., PLC controllers) and ensure relia
 > Both DCS (Distributed Control Systems) and SCADA (Supervisory Control and Data Acquisition) systems are undergoing transformations aligned with the broader digital transformation trends, including the Industrial Internet of Things (IIoT). This transformation aims to enhance industrial automation capabilities and deliver greater value to process manufacturers.
 End users are presenting new challenges, pushing vendors to rethink operational technology (OT) automation systems by incorporating Commercial Off-The-Shelf (COTS) hardware and software. They seek automation systems that outperform current DCSs in terms of reliability, security, and overall user value. Additionally, end users are looking for systems that allow them to preserve their control strategies when transitioning to upgraded or new systems. Modularized hardware components and decoupled software from hardware and I/O are also desired to facilitate incremental upgrades and execution flexibility within the system.
 
+### Expansion of SCADA
+> SCADA systems have evolved through four generations:
+
+> * First generation ("Monolithic"):\
+> Early SCADA systems relied on large minicomputers and operated independently with no connectivity to other systems. Communication protocols were proprietary, and redundancy was achieved through backup mainframe systems.\
+ ![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/7252c3c8-e11a-42a6-9da1-a458df9a85f0)
+
+> * Second generation ("Distributed"):\
+> SCADA information and command processing became distributed across multiple stations connected through a LAN. Each station had specific tasks, reducing costs compared to the first generation. Network protocols were still proprietary, and security was often overlooked.\
+![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/a67ae0ff-71e7-4c19-a97e-051024f712d9)
+
+> * Third generation ("Networked"):\
+> Similar to distributed architecture, SCADA systems were connected through communication protocols, often spanning multiple LAN networks. This allowed for cost-effective solutions in large-scale systems.\
+![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/b34f1920-d1ed-4bf3-a1a8-4d4aed3dcf5f)
+
+
+> * Fourth generation ("Web-based"):\
+> The growth of the internet led to SCADA systems implementing web technologies, enabling users to access data, exchange information, and control processes from anywhere in the world through web socket connections. Web SCADA systems use internet browsers like Google Chrome and Mozilla Firefox as graphical user interfaces, simplifying client-side installation and facilitating access from various platforms, including servers, PCs, laptops, tablets, and mobile phones.
+
+
+
+
+
+
+> 
 ## SCADA Databases
 Automation systems often require efficient data storage and retrieval. Production data, including machine OEE ( Overall equipment effectiveness ), operator log-ins, product and password management, and historical machine information, is typically managed through interactions with a database, which essentially is an organised data collection. This data is stored for easy categorisation and future access and is designed in away to create meaningful correlations.\
 
@@ -263,4 +248,14 @@ When designing a database, it's crucial to determine its purpose, design tables 
 * [laquisscada.com](https://laquisscada.com/blogger/database-how-to-create-a-database/)
 * [d2000.ipesoft.com](https://d2000.ipesoft.com/blog/databases-in-scada-and-mes-systems/)
 * [teslascada.com](https://teslascada.com/HTML/databases2.html)
+* [electrical-engineering-portal.com](https://electrical-engineering-portal.com/three-generations-of-scada-system-architectures)
 
+## Authors:
+Agnieszka Stromska 188560\
+Oliwer Losvik 188629\
+Jakub Kabat 191339\
+Miłosz Smolarczyk 189008\
+Szymon Kowalski 188795\
+Jakub Siciarek 188642\
+Bartosz Krajewski 189655\
+Marcel Krużycki 188734

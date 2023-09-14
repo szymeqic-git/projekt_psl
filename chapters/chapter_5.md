@@ -3,7 +3,6 @@
 * [Data Exchange in **SCADA**](chapter_2.md)
 * [**SCADA** System Components](chapter_3.md)
 * [**SCADA** Applications](chapter_4.md)
-* [Operating Station](chapter_5.md)
 * [**SCADA** and Distributed Control System](chapter_6.md)
 * [**SCADA** Databases](chapter_7.md)
 * [Sources](chapter_8.md)

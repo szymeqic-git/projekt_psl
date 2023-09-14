@@ -22,28 +22,39 @@
 
 ## Here are a few key **SCADA** system applications, and their main features:
 #### Asix **SCADA**:
- **User-Friendly Interface:** Asix offers a user-friendly graphical interface that allows users to quickly understand and control processes.
+
+
+   **User-Friendly Interface:** Asix offers a user-friendly graphical interface that allows users to quickly understand and control processes.
  
- **Real-Time Data Collection:** The application allows for real-time data collection from various devices and processes, enabling continuous monitoring and response to changes.
+   **Real-Time Data Collection:** The application allows for real-time data collection from various devices and processes, enabling continuous monitoring and response to changes.
+   
+   **Integrated Diagnostic Tools:** Asix provides advanced diagnostic tools that assist in quickly identifying and resolving issues within the system.
  
- **Integrated Diagnostic Tools:** Asix provides advanced diagnostic tools that assist in quickly identifying and resolving issues within the system.
- 
- **Support for Various Communication Protocols:** It supports various communication protocols, making it easy to connect with different devices and systems.
+   **Support for Various Communication Protocols:** It supports various communication protocols, making it easy to connect with different devices and systems.
+
+   
 
 #### Wonderware InTouch:
- **Process Visualization:** Wonderware InTouch provides advanced process visualization capabilities, enabling the creation of interactive user interfaces.
+
+
+   **Process Visualization:** Wonderware InTouch provides advanced process visualization capabilities, enabling the creation of interactive user interfaces.
  
- **Integration with Other Systems:**  It allows integration with other systems such as databases, enabling comprehensive data management.
+   **Integration with Other Systems:**  It allows integration with other systems such as databases, enabling comprehensive data management.
  
- **Scalability:** The system is scalable, allowing customization for different sizes and types of installations.
+   **Scalability:** The system is scalable, allowing customization for different sizes and types of installations.
  
- **Alarm and Event Management:** It offers advanced tools for managing alarms and events, facilitating quick responses to failures and anomalies.
+   **Alarm and Event Management:** It offers advanced tools for managing alarms and events, facilitating quick responses to failures and anomalies.
+
+   
 
 #### Siemens WinCC:
- **Integration with Industrial Automation Systems:** Siemens WinCC is often used in industrial automation, allowing seamless integration with industrial automation devices.
+
+
+   **Integration with Industrial Automation Systems:** Siemens WinCC is often used in industrial automation, allowing seamless integration with industrial automation devices.
  
- **Advanced Reporting Features:**  It offers advanced reporting and data analysis tools, making data-driven decision-making easier.
+   **Advanced Reporting Features:**  It offers advanced reporting and data analysis tools, making data-driven decision-making easier.
  
- **Security and Availability:** It ensures a high level of system security and availability, crucial in critical industrial applications.
+   **Security and Availability:** It ensures a high level of system security and availability, crucial in critical industrial applications.
  
- **Support for Distributed Systems:** It can handle distributed **SCADA** systems, which is useful for large and complex installations.
+   **Support for Distributed Systems:** It can handle distributed **SCADA** systems, which is useful for large and complex installations.
+   

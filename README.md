@@ -16,31 +16,31 @@
 
 ---
 
-#### Definicje
+#### Definitions
 
-**SCADA** jest skrótem od frazy „_Supervisory Control and Data Acquisition_”, oznaczającej kontrolę nadzorczą i pozyskiwanie danych. System **SCADA** jest zwykle stosowany w połączeniu z oprogramowaniem i elementami sprzętowymi, na przykład programowalnymi sterownikami logicznymi (**PLC**) i zdalnymi jednostkami terminali (**RTU** _ang. Remote Terminal Unit_).
+**SCADA** is abbreviation from phrase „_Supervisory Control and Data Acquisition_”. **SCADA** system is mostly used in connection with software and hardware components, for example programmable logic controllers (**PLC**) and remote terminal units (**RTU**).
 
-**HMI** (_ang. Human Machine Interface_) jest częścią większego systemu **SCADA**, razem z jego **PLC**, **RTU** i innymi funkcjami. Dokładniej HMI to system, którego operatorzy używają do interakcji ze **SCADA**, natomiast nadrzędny system **SCADA** realizuje wszystkie procesy związane z gromadzeniem i przechowywaniem danych oraz kontrolowaniem sprzętu. Interfejsy **HMI** są często wyposażone w ekrany i, w idealnym przypadku, posiadają łatwe w obsłudze panele obsługowe i elementy sterowania. Mogą wykorzystywać grafikę i wizualizację, ułatwiającą obsługę i interpretację danych i funkcji.
+**HMI** (_Human Machine Interface_) is part of a bigger **SCADA** system, with its **PLC**, **RTU** and other functions. **HMI** is system which operators use to interact with **SCADA**, while overriding **SCADA** system implements all the processes connected with collecting, storing data and controlling hardware. **HMI** interfaces are often equipped with screens and, in perfect case, easy to use control panels and contol elements. They can use graphics and visualizations, simplifying control and interpretation of data and functions. 
 
-#### Zadania
+#### Tasks
 
-Do zadań systemu **SCADA** należy:
+Tasks of **SCADA** systems:
 
-> • Ciągła komunikacja ze sterownikiem **PLC**
+> • Constant communication with **PLC** controller
 >
-> • Czytelna wizualizacja danych w czasie rzeczywistym
+> • Readable data visualization in real time 
 >
-> • Obsługa bazy danych z odpowiednimi informacjami technologicznymi
+> • Database control with appropriate technological informations 
 >
-> • Obsługa instalacji alarmowych
+> • Alarm installation control 
 >
-> • Generowanie raportów o postępach procesu technologicznego
+> • Generating technological process’ progress raports 
 
-#### Zastosowanie
+#### Applications
 
-Systemy **SCADA** są szczególnie istotne przy _skomplikowanych, wielkoskalowych_ instalacjach przemysłowych. Istotna jest zdolność do organizacji pracy wielu składowych równocześnie, w przeciwieństwie do prostych systemów **HMI**. Systemy **SCADA** umożliwiają organizacjom monitorowanie i raportowanie procesów na podstawie danych w czasie rzeczywistym oraz archwizację danych na potrzeby późniejszego przetwarzania i ewaluacji.
+**SCADA** systems systems are especially important with _complicated, mulit-scale_ industrial installations. Ability to manage work of many components simultaneously is important, in opposite of simple **HMI** systems. **SCADA** systems nable organizations to monitor and report processes based on real time data and archive data to process and evaluate in the future. 
 
-#### Schemat
+#### Schema
 
 ![](https://cdn.discordapp.com/attachments/982375180401770526/1150086602945724416/panel-hmi-zamontowany-na-maszynie-automatyka-webhmi-scada4.jpg)
 
@@ -48,14 +48,14 @@ Systemy **SCADA** są szczególnie istotne przy _skomplikowanych, wielkoskalowyc
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/d32f02a0d256a3cb3115a531a950927cc46e02269df37cbd.png)
 
-#### Poziomy systemu
+#### System levels
 
->      0. Na najniższym poziomie _0_ znajdują się urządzenia _wykonawcze_ oraz _pomiarowe_
+>      0. On the lowest level there are _executive_ and _measuring_ devices
 >
-> 1. Pierwszy poziom składa się ze sterowników **PLC** 
-> 2. Poziom drugi to komputery nadzorujące, odpowiedzialne za **HMI** oraz przekazanie informacji do komputerów koordynujących
-> 3. Jednostki poziomu trzeciego nie wplywają bezpośrednio za działanie elementów wykonawczych, ale moniturują całokształt produkcji
-> 4. Najwyższy poziom jest odpowiedzialny za planowanie produkcji i zbiorową analizę danych
+> 1. First level cosists of **PLC** controllers 
+> 2. Level two are supervisory computers, responsible for **HMI** and transferring information to coordinating computers
+> 3. Level third’s units do not have direct influence on executive devices’ work but they monitor overall production
+> 4. The highest level is responsible for production plan and collective data analysis
 
 ## SCADA System Components
 #### Remote Terminal Unit (RTU)

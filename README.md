@@ -2,12 +2,12 @@
 
 ## Table of Contents
 * [What is **SCADA**?](#what-is-SCADA)
-* [Data Exchange in **SCADA**](#data-exchange-in-**SCADA**)
-* [**SCADA** System Components](#**SCADA**-system-components)
-* [**SCADA** Applications](#**SCADA**-applications)
+* [Data Exchange in **SCADA**](#data-exchange-in-SCADA)
+* [**SCADA** System Components](#SCADA-system-components)
+* [**SCADA** Applications](#SCADA-applications)
 * [Operating Station](#operating-station)
-* [**SCADA** and Distributed Control System](#**SCADA**-and-distributed-control-system)
-* [**SCADA** Databases](#**SCADA**-databases)
+* [**SCADA** and Distributed Control System](#SCADA-and-distributed-control-system)
+* [**SCADA** Databases](#SCADA-databases)
 * [Sources](#sources)
 * [Authors](#authors)
   
@@ -45,7 +45,7 @@ Tasks of **SCADA** systems:
 
 ![](https://cdn.discordapp.com/attachments/982375180401770526/1150086602945724416/panel-**HMI**-zamontowany-na-maszynie-automatyka-web**HMI**-**SCADA**4.jpg)
 
-## Data Exchange in **SCADA**
+## Data Exchange in SCADA
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/d32f02a0d256a3cb3115a531a950927cc46e02269df37cbd.png)
 
@@ -58,7 +58,7 @@ Tasks of **SCADA** systems:
  4. The highest level is responsible for production plan and collective data analysis
 
 
-## **SCADA** System Components
+## SCADA System Components
 
 
 #### Remote Terminal Unit (RTU)
@@ -115,7 +115,7 @@ To meet increasing security requirements, such as those outlined by the North Am
 
 Modern carrier-class systems provide the necessary quality of service for **SCADA** applications, whereas earlier experiences with consumer-grade **VSAT** were less satisfactory.
 
-#### **SCADA** Supervisory Computers
+#### SCADA Supervisory Computers
 
 In small **SCADA** systems, the master station is a single computer that communicates with controls systems and other equipment. 
 In larger **SCADA** systems, this can include multiple servers, software applications, remote terminal units (**RTUs**), and programmable logic circuits (**PLCs**). This forms the central nucleus of the **SCADA** system, responsible for both gathering data from the industrial process and dispatching control instructions to the connected field devices. It encompasses:
@@ -196,7 +196,7 @@ While **SCADA** systems may offer specialized features tailored to various indus
  7. Reporting: Reporting is a valuable aspect of **SCADA** system operations. It involves generating reports on system status, process performance, and customized reports tailored to specific application requirements. These reports provide insights into the functioning and efficiency of the **SCADA** system.
 
 
-## **SCADA** Applications
+## SCADA Applications
 #### **SCADA** (Supervisory Control and Data Acquisition) systems are employed across various industries and industrial sectors for the purposes of monitoring, controlling, and collecting data from processes. Here are some common applications:
  1. **Industrial Process Control:** **SCADA** systems are extensively used in industrial settings to monitor and control manufacturing and production processes. They ensure that equipment and machinery operate efficiently and within specified parameters.
  2. **Utilities Management:** **SCADA** is employed in managing utility services such as water treatment, wastewater management, and power distribution. It helps optimize resource usage and maintain the quality of services.
@@ -208,7 +208,7 @@ While **SCADA** systems may offer specialized features tailored to various indus
  8. **Water and Wastewater Management:** **SCADA** systems are vital for monitoring and controlling water treatment plants, distribution networks, and wastewater treatment facilities, ensuring the supply of clean water and proper sanitation.
  9. **Telecommunications:** **SCADA** systems help manage telecommunications infrastructure, including cell towers, ensuring network availability and performance.
 
-## Here are a few key **SCADA** system applications, and their main features:
+## Here are a few key SCADA system applications, and their main features:
 #### Asix **SCADA**:
  **User-Friendly Interface:** Asix offers a user-friendly graphical interface that allows users to quickly understand and control processes.
  
@@ -267,7 +267,7 @@ Communication with automation equipment (e.g., **PLC** controllers) and ensure r
  6. Data exchange with other applications (e.g., spreadsheets and databases).
  7. Scalability (i.e., the ability to expand) of the control system.
 
-## **SCADA** and Distributed Control System
+## SCADA and Distributed Control System
 ### Seperate Systems
  A **DCS** _(Distributed Control System)_ and **SCADA** are used for industrial automation to control and monitor processes; they are designed for different applications. **SCADA** is used for monitoring and basic control of geographically scattered operations, whereas **DCS** is used for exact control of complicated processes. There are many differences between them, from safety, processing times to industries where there are used.
  ![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/82d6726b-b42f-4aa3-8ccf-d8c791c17b12)
@@ -311,7 +311,7 @@ End users are presenting new challenges, pushing vendors to rethink operational 
 
 
 
-## **SCADA** Databases
+## SCADA Databases
 Automation systems often require efficient data storage and retrieval. Production data, including machine **OEE** (_Overall equipment effectiveness_), operator log-ins, product and password management, and historical machine information, is typically managed through interactions with a database, which essentially is an organised data collection. This data is stored for easy categorisation and future access and is designed in away to create meaningful correlations.
 
 ### Types of databases

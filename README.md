@@ -195,3 +195,4 @@ End users are presenting new challenges, pushing vendors to rethink operational 
 * [dcs wikipedia.com](https://en.wikipedia.org/wiki/Distributed_control_system)
 * [yokogawa.com](https://www.yokogawa.com/eu/library/resources/white-papers/what-are-the-roles-of-dcs-and-scada-in-digital-transformation/)
 * [automation.com](https://www.automation.com/en-us/articles/september-2021/roles-dcs-scada-digital-transformation)
+h

@@ -1,15 +1,15 @@
 # SCADA Systems
 
 ## Table of Contents
-* [What is SCADA?](chapters/chapter_1.md)
-* [Data Exchange in SCADA](chapters/chapter_2.md)
-* [SCADA System Components](chapters/chapter_3.md)
-* [SCADA Applications](chapters/chapter_4.md)
-* [Operating Station](chapters/chapter_5.md)
-* [SCADA and Distributed Control System](chapters/chapter_6.md)
-* [SCADA Databases](chapters/chapter_7.md)
-* [Sources](chapters/chapter_8.md)
-* [Authors](chapters/chapter_9.md)
+* [What is SCADA?](chapter_1.md)
+* [Data Exchange in SCADA](chapter_2.md)
+* [SCADA System Components](chapter_3.md)
+* [SCADA Applications](chapter_4.md)
+* [Operating Station](chapter_5.md)
+* [SCADA and Distributed Control System](chapter_6.md)
+* [SCADA Databases](chapter_7.md)
+* [Sources](chapter_8.md)
+* [Authors](chapter_9.md)
   
 
 

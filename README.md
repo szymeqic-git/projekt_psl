@@ -27,15 +27,15 @@
 
 Tasks of **SCADA** systems:
 
-> • Constant communication with **PLC** controller
->
-> • Readable data visualization in real time 
->
-> • Database control with appropriate technological informations 
->
-> • Alarm installation control 
->
-> • Generating technological process’ progress raports 
+ • Constant communication with **PLC** controller
+
+ • Readable data visualization in real time 
+
+ • Database control with appropriate technological informations 
+
+ • Alarm installation control 
+
+ • Generating technological process’ progress raports 
 
 #### Applications
 
@@ -51,11 +51,11 @@ Tasks of **SCADA** systems:
 
 #### System levels
 
-> 0. On the lowest level there are _executive_ and _measuring_ devices
-> 1. First level cosists of **PLC** controllers 
-> 2. Level two are supervisory computers, responsible for **HMI** and transferring information to coordinating computers
-> 3. Level third’s units do not have direct influence on executive devices’ work but they monitor overall production
-> 4. The highest level is responsible for production plan and collective data analysis
+ 0. On the lowest level there are _executive_ and _measuring_ devices
+ 1. First level cosists of **PLC** controllers 
+ 2. Level two are supervisory computers, responsible for **HMI** and transferring information to coordinating computers
+ 3. Level third’s units do not have direct influence on executive devices’ work but they monitor overall production
+ 4. The highest level is responsible for production plan and collective data analysis
 
 
 ## **SCADA** System Components
@@ -64,7 +64,7 @@ Tasks of **SCADA** systems:
 #### Remote Terminal Unit (RTU)
 
 Remote terminal units, abbreviated as **RTUs**, establish connections with sensors and actuators within a given process and are integrated into the supervisory computer system via a network. 
-**RTUs** possess inherent control capabilities and frequently adhere to the _IEC 61131->3_ standard for programming, supporting automation through methods such as:
+**RTUs** possess inherent control capabilities and frequently adhere to the _IEC 61131-3_ standard for programming, supporting automation through methods such as:
 * ladder logic
 * function block diagrams
 * a range of other programming languages.
@@ -181,126 +181,126 @@ The advantage of telemetry monitoring lies in its ability to provide instant acc
 
 While **SCADA** systems may offer specialized features tailored to various industries or applications, most systems encompass the following key functions:
 
-> 1. Data Collection: At the core of **SCADA** systems is data acquisition. Sensors collect data from the field, which is then relayed to field controllers. These controllers subsequently transmit the collected data to the **SCADA** computers.
+ 1. Data Collection: At the core of **SCADA** systems is data acquisition. Sensors collect data from the field, which is then relayed to field controllers. These controllers subsequently transmit the collected data to the **SCADA** computers.
 
-> 2. Remote Control: **SCADA** systems enable remote control by managing field actuators based on the data gathered from field sensors. This capability allows operators to make adjustments and control processes from a distance.
+ 2. Remote Control: **SCADA** systems enable remote control by managing field actuators based on the data gathered from field sensors. This capability allows operators to make adjustments and control processes from a distance.
 
-> 3. Networked Data Communication: Effective communication is crucial in **SCADA**. Data obtained from sensors must be efficiently transmitted to **SCADA** field controllers, which, in turn, establish communication with the **SCADA** supervisory computers. Additionally, remote control commands are sent from the **SCADA** supervisory computers to actuators.
+ 3. Networked Data Communication: Effective communication is crucial in **SCADA**. Data obtained from sensors must be efficiently transmitted to **SCADA** field controllers, which, in turn, establish communication with the **SCADA** supervisory computers. Additionally, remote control commands are sent from the **SCADA** supervisory computers to actuators.
 
-> 4. Data Presentation: Human-Machine Interfaces (**HMI**s) play a pivotal role in **SCADA** systems by visually representing both current and historical data to operators. **HMI**s provide an intuitive interface for operators to interact with the system.
+ 4. Data Presentation: Human-Machine Interfaces (**HMI**s) play a pivotal role in **SCADA** systems by visually representing both current and historical data to operators. **HMI**s provide an intuitive interface for operators to interact with the system.
 
-> 5. Real-time and Historical Data: **SCADA** systems incorporate both real-time and historical data. Real-time data allows users to monitor the current state of processes, while historical data enables the tracking of performance against past trends.
+ 5. Real-time and Historical Data: **SCADA** systems incorporate both real-time and historical data. Real-time data allows users to monitor the current state of processes, while historical data enables the tracking of performance against past trends.
 
-> 6. Alarms: **SCADA** systems include alarm functionalities that alert operators to potentially significant conditions within the system. These alarms can be customized to notify operators of process blockages, system failures, or the need for adjustments in various aspects of **SCADA** processes.
+ 6. Alarms: **SCADA** systems include alarm functionalities that alert operators to potentially significant conditions within the system. These alarms can be customized to notify operators of process blockages, system failures, or the need for adjustments in various aspects of **SCADA** processes.
 
-> 7. Reporting: Reporting is a valuable aspect of **SCADA** system operations. It involves generating reports on system status, process performance, and customized reports tailored to specific application requirements. These reports provide insights into the functioning and efficiency of the **SCADA** system.
+ 7. Reporting: Reporting is a valuable aspect of **SCADA** system operations. It involves generating reports on system status, process performance, and customized reports tailored to specific application requirements. These reports provide insights into the functioning and efficiency of the **SCADA** system.
 
 
 ## **SCADA** Applications
 #### **SCADA** (Supervisory Control and Data Acquisition) systems are employed across various industries and industrial sectors for the purposes of monitoring, controlling, and collecting data from processes. Here are some common applications:
-> 1. **Industrial Process Control:** **SCADA** systems are extensively used in industrial settings to monitor and control manufacturing and production processes. They ensure that equipment and machinery operate efficiently and within specified parameters.
-> 2. **Utilities Management:** **SCADA** is employed in managing utility services such as water treatment, wastewater management, and power distribution. It helps optimize resource usage and maintain the quality of services.
-> 3. **Energy Management:** **SCADA** systems play a crucial role in monitoring and controlling energy production and distribution, including power generation plants, substations, and smart grids.
-> 4. **Oil and Gas Industry:** In the oil and gas sector, **SCADA** systems are used for monitoring and controlling pipelines, drilling operations, and refining processes. They aid in the safe and efficient extraction and distribution of resources.
-> 5. **Environmental Monitoring:** **SCADA** systems are utilized in environmental applications like air quality monitoring, weather stations, and pollution control. They help gather data for regulatory compliance and environmental protection.
-> 6. **Transportation and Infrastructure:** **SCADA** systems are employed in managing transportation systems, including traffic control, railway operations, and airport management. They ensure smooth and safe transportation services.
-> 7. **Building Automation:** In commercial and residential buildings, **SCADA** systems are used for HVAC (Heating, Ventilation, and Air Conditioning) control, lighting management, and security systems.
-> 8. **Water and Wastewater Management:** **SCADA** systems are vital for monitoring and controlling water treatment plants, distribution networks, and wastewater treatment facilities, ensuring the supply of clean water and proper sanitation.
-> 9. **Telecommunications:** **SCADA** systems help manage telecommunications infrastructure, including cell towers, ensuring network availability and performance.
+ 1. **Industrial Process Control:** **SCADA** systems are extensively used in industrial settings to monitor and control manufacturing and production processes. They ensure that equipment and machinery operate efficiently and within specified parameters.
+ 2. **Utilities Management:** **SCADA** is employed in managing utility services such as water treatment, wastewater management, and power distribution. It helps optimize resource usage and maintain the quality of services.
+ 3. **Energy Management:** **SCADA** systems play a crucial role in monitoring and controlling energy production and distribution, including power generation plants, substations, and smart grids.
+ 4. **Oil and Gas Industry:** In the oil and gas sector, **SCADA** systems are used for monitoring and controlling pipelines, drilling operations, and refining processes. They aid in the safe and efficient extraction and distribution of resources.
+ 5. **Environmental Monitoring:** **SCADA** systems are utilized in environmental applications like air quality monitoring, weather stations, and pollution control. They help gather data for regulatory compliance and environmental protection.
+ 6. **Transportation and Infrastructure:** **SCADA** systems are employed in managing transportation systems, including traffic control, railway operations, and airport management. They ensure smooth and safe transportation services.
+ 7. **Building Automation:** In commercial and residential buildings, **SCADA** systems are used for HVAC (Heating, Ventilation, and Air Conditioning) control, lighting management, and security systems.
+ 8. **Water and Wastewater Management:** **SCADA** systems are vital for monitoring and controlling water treatment plants, distribution networks, and wastewater treatment facilities, ensuring the supply of clean water and proper sanitation.
+ 9. **Telecommunications:** **SCADA** systems help manage telecommunications infrastructure, including cell towers, ensuring network availability and performance.
 
 ## Here are a few key **SCADA** system applications, and their main features:
 #### Asix **SCADA**:
-> **User-Friendly Interface:** Asix offers a user-friendly graphical interface that allows users to quickly understand and control processes.
-> 
-> **Real-Time Data Collection:** The application allows for real-time data collection from various devices and processes, enabling continuous monitoring and response to changes.
-> 
-> **Integrated Diagnostic Tools:** Asix provides advanced diagnostic tools that assist in quickly identifying and resolving issues within the system.
-> 
-> **Support for Various Communication Protocols:** It supports various communication protocols, making it easy to connect with different devices and systems.
->
+ **User-Friendly Interface:** Asix offers a user-friendly graphical interface that allows users to quickly understand and control processes.
+ 
+ **Real-Time Data Collection:** The application allows for real-time data collection from various devices and processes, enabling continuous monitoring and response to changes.
+ 
+ **Integrated Diagnostic Tools:** Asix provides advanced diagnostic tools that assist in quickly identifying and resolving issues within the system.
+ 
+ **Support for Various Communication Protocols:** It supports various communication protocols, making it easy to connect with different devices and systems.
+
 #### Wonderware InTouch:
-> **Process Visualization:** Wonderware InTouch provides advanced process visualization capabilities, enabling the creation of interactive user interfaces.
-> 
-> **Integration with Other Systems:**  It allows integration with other systems such as databases, enabling comprehensive data management.
-> 
-> **Scalability:** The system is scalable, allowing customization for different sizes and types of installations.
-> 
-> **Alarm and Event Management:** It offers advanced tools for managing alarms and events, facilitating quick responses to failures and anomalies.
->
+ **Process Visualization:** Wonderware InTouch provides advanced process visualization capabilities, enabling the creation of interactive user interfaces.
+ 
+ **Integration with Other Systems:**  It allows integration with other systems such as databases, enabling comprehensive data management.
+ 
+ **Scalability:** The system is scalable, allowing customization for different sizes and types of installations.
+ 
+ **Alarm and Event Management:** It offers advanced tools for managing alarms and events, facilitating quick responses to failures and anomalies.
+
 #### Siemens WinCC:
-> **Integration with Industrial Automation Systems:** Siemens WinCC is often used in industrial automation, allowing seamless integration with industrial automation devices.
-> 
-> **Advanced Reporting Features:**  It offers advanced reporting and data analysis tools, making data-driven decision-making easier.
-> 
-> **Security and Availability:** It ensures a high level of system security and availability, crucial in critical industrial applications.
-> 
-> **Support for Distributed Systems:** It can handle distributed **SCADA** systems, which is useful for large and complex installations.
->
+ **Integration with Industrial Automation Systems:** Siemens WinCC is often used in industrial automation, allowing seamless integration with industrial automation devices.
+ 
+ **Advanced Reporting Features:**  It offers advanced reporting and data analysis tools, making data-driven decision-making easier.
+ 
+ **Security and Availability:** It ensures a high level of system security and availability, crucial in critical industrial applications.
+ 
+ **Support for Distributed Systems:** It can handle distributed **SCADA** systems, which is useful for large and complex installations.
+
 ## Operating Station
-> It is a device that enables the operator to track the technological process and influence its course (operator station called is sometimes a visualization station)
->Destiny:
->It is to enable the operator to contact the automation system installed on object
->Role:
+ It is a device that enables the operator to track the technological process and influence its course (operator station called is sometimes a visualization station)
+Destiny:
+It is to enable the operator to contact the automation system installed on object
+Role:
 Should perform specific tasks abbreviated as MMI (known as **HMI**) and **SCADA**
-> Functions:
-> 1. Process flow control (automatically or by operator)
-> 2. Visualization of the automated process technological (industrial)
-> 3. Possibility to exchange data with:
->-company IT system
->-spreadsheets
->-databases
+ Functions:
+ 1. Process flow control (automatically or by operator)
+ 2. Visualization of the automated process technological (industrial)
+ 3. Possibility to exchange data with:
+-company IT system
+-spreadsheets
+-databases
 ### Features of the visualization system
-> - open
-> - flexible
-> - network
-> - localizable
-> - scalable (possibility of easy expansion)
-> - updateable
+ - open
+ - flexible
+ - network
+ - localizable
+ - scalable (possibility of easy expansion)
+ - updateable
 ### Visualization system tasks
 **The visualization, control, and process monitoring system installed on the facility should provide:
 Communication with automation equipment (e.g., **PLC** controllers) and ensure reliable operation.**
-> 1. Real-time process visualization (graphical representation of the process).
-> 2. Intervention in the process by authorized personnel.
-> 3. Comprehensive analysis of selected process parameters.
-> 4. Data archiving and presentation of current data (trends) and reporting (daily and periodic).
-> 5. Generation of informative, warning, and alarm messages.
-> 6. Data exchange with other applications (e.g., spreadsheets and databases).
-> 7. Scalability (i.e., the ability to expand) of the control system.
+ 1. Real-time process visualization (graphical representation of the process).
+ 2. Intervention in the process by authorized personnel.
+ 3. Comprehensive analysis of selected process parameters.
+ 4. Data archiving and presentation of current data (trends) and reporting (daily and periodic).
+ 5. Generation of informative, warning, and alarm messages.
+ 6. Data exchange with other applications (e.g., spreadsheets and databases).
+ 7. Scalability (i.e., the ability to expand) of the control system.
 
 ## **SCADA** and Distributed Control System
 ### Seperate Systems
-> A DCS (Distributed Control System) and **SCADA** are used for industrial automation to control and monitor processes; they are designed for different applications. **SCADA** is used for monitoring and basic control of geographically scattered operations, whereas DCS is used for exact control of complicated processes. There are many differences between them, from safety, processing times to industries where there are used.
-> ![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/82d6726b-b42f-4aa3-8ccf-d8c791c17b12)
+ A DCS (Distributed Control System) and **SCADA** are used for industrial automation to control and monitor processes; they are designed for different applications. **SCADA** is used for monitoring and basic control of geographically scattered operations, whereas DCS is used for exact control of complicated processes. There are many differences between them, from safety, processing times to industries where there are used.
+ ![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/82d6726b-b42f-4aa3-8ccf-d8c791c17b12)
 
 ### Architecture
-> DCS and **SCADA** systems are built following the ISA95 Purdue reference model architecture, which consists of five levels. The first level encompasses devices, actuators, and sensors on the production floor, while the second level utilizes **PLC**s and PID controllers to interface with field-level devices. In the third level, traditionally occupied by **SCADA** systems, data is funneled to support process control, asset management, historical analysis, and IT applications. DCS systems may include servers that can be considered part of a **SCADA** system, connecting corporate and IT systems.\ 
+ DCS and **SCADA** systems are built following the ISA95 Purdue reference model architecture, which consists of five levels. The first level encompasses devices, actuators, and sensors on the production floor, while the second level utilizes **PLC**s and PID controllers to interface with field-level devices. In the third level, traditionally occupied by **SCADA** systems, data is funneled to support process control, asset management, historical analysis, and IT applications. DCS systems may include servers that can be considered part of a **SCADA** system, connecting corporate and IT systems.\ 
 ![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/bcb8823a-c7eb-420d-82c8-1bb4253631ff)
 
-> Modern DCS and **SCADA** systems encompass various software and hardware components located in the first and second levels of manufacturing control. These systems serve as a crucial bridge for digitalization, facilitating the seamless flow of information from the plant floor to the boardroom, integrating all five levels of the automation pyramid.
-> Today, **SCADA** and DCS are very similar. DCS is used on large continuous process plants where high reliability and security is important, and the control room is not geographically remote.
+ Modern DCS and **SCADA** systems encompass various software and hardware components located in the first and second levels of manufacturing control. These systems serve as a crucial bridge for digitalization, facilitating the seamless flow of information from the plant floor to the boardroom, integrating all five levels of the automation pyramid.
+ Today, **SCADA** and DCS are very similar. DCS is used on large continuous process plants where high reliability and security is important, and the control room is not geographically remote.
 
 ### Digital transformation
-> Both **DCS** (_Distributed Control Systems_) and **SCADA** (_Supervisory Control and Data Acquisition_) systems are undergoing transformations aligned with the broader digital transformation trends, including the Industrial Internet of Things (**IIoT**). This transformation aims to enhance industrial automation capabilities and deliver greater value to process manufacturers.
+ Both **DCS** (_Distributed Control Systems_) and **SCADA** (_Supervisory Control and Data Acquisition_) systems are undergoing transformations aligned with the broader digital transformation trends, including the Industrial Internet of Things (**IIoT**). This transformation aims to enhance industrial automation capabilities and deliver greater value to process manufacturers.
 End users are presenting new challenges, pushing vendors to rethink operational technology (OT) automation systems by incorporating Commercial Off-The-Shelf (COTS) hardware and software. They seek automation systems that outperform current DCSs in terms of reliability, security, and overall user value. Additionally, end users are looking for systems that allow them to preserve their control strategies when transitioning to upgraded or new systems. Modularized hardware components and decoupled software from hardware and I/O are also desired to facilitate incremental upgrades and execution flexibility within the system.
 
 ### Expansion of **SCADA**
-> **SCADA** systems have evolved through four generations:
+ **SCADA** systems have evolved through four generations:
 
-> * First generation ("Monolithic"):\
-> Early **SCADA** systems relied on large minicomputers and operated independently with no connectivity to other systems. Communication protocols were proprietary, and redundancy was achieved through backup mainframe systems.
+ * First generation ("Monolithic"):\
+ Early **SCADA** systems relied on large minicomputers and operated independently with no connectivity to other systems. Communication protocols were proprietary, and redundancy was achieved through backup mainframe systems.
  ![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/7252c3c8-e11a-42a6-9da1-a458df9a85f0)
 
-> * Second generation ("Distributed"):\
-> **SCADA** information and command processing became distributed across multiple stations connected through a LAN. Each station had specific tasks, reducing costs compared to the first generation. Network protocols were still proprietary, and security was often overlooked.\
+ * Second generation ("Distributed"):\
+ **SCADA** information and command processing became distributed across multiple stations connected through a LAN. Each station had specific tasks, reducing costs compared to the first generation. Network protocols were still proprietary, and security was often overlooked.\
 ![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/a67ae0ff-71e7-4c19-a97e-051024f712d9)
 
-> * Third generation ("Networked"):\
-> Similar to distributed architecture, **SCADA** systems were connected through communication protocols, often spanning multiple LAN networks. This allowed for cost-effective solutions in large-scale systems.
+ * Third generation ("Networked"):\
+ Similar to distributed architecture, **SCADA** systems were connected through communication protocols, often spanning multiple LAN networks. This allowed for cost-effective solutions in large-scale systems.
 ![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/b34f1920-d1ed-4bf3-a1a8-4d4aed3dcf5f)
 
 
-> * Fourth generation ("Web-based"):\
-> The growth of the internet led to **SCADA** systems implementing web technologies, enabling users to access data, exchange information, and control processes from anywhere in the world through web socket connections. Web **SCADA** systems use internet browsers like Google Chrome and Mozilla Firefox as graphical user interfaces, simplifying client-side installation and facilitating access from various platforms, including:
+ * Fourth generation ("Web-based"):\
+ The growth of the internet led to **SCADA** systems implementing web technologies, enabling users to access data, exchange information, and control processes from anywhere in the world through web socket connections. Web **SCADA** systems use internet browsers like Google Chrome and Mozilla Firefox as graphical user interfaces, simplifying client-side installation and facilitating access from various platforms, including:
 
 * servers
 *  PCs

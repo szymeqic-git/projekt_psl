@@ -189,6 +189,25 @@ Communication with automation equipment (e.g., PLC controllers) and ensure relia
 End users are presenting new challenges, pushing vendors to rethink operational technology (OT) automation systems by incorporating Commercial Off-The-Shelf (COTS) hardware and software. They seek automation systems that outperform current DCSs in terms of reliability, security, and overall user value. Additionally, end users are looking for systems that allow them to preserve their control strategies when transitioning to upgraded or new systems. Modularized hardware components and decoupled software from hardware and I/O are also desired to facilitate incremental upgrades and execution flexibility within the system.
 
 ## SCADA Databases
+Automation systems often require efficient data storage and retrieval. Production data, including machine OEE ( Overall equipment effectiveness ), operator log-ins, product and password management, and historical machine information, is typically managed through interactions with a database, which essentially is an organised data collection. This data is stored for easy categorisation and future access and is designed in away to create meaningful correlations.\
+
+### Types of databases
+
+SCADA systems often are separated into multiple databases each with its specific purpose. The most common type of database in SCADA systems is a history database. The purpose of these databases is to provide a solution for real time data logging for the observed systems. They are simple relational databases consisting of a timestamp, measured values and tags regarding what category the machine belongs to.\
+There are several other database types used in SCADA systems, but what kind of databases are used mostly depends on what is crucial for the particular system. One more popular type is specifically for events. Some systems use a database containing logs of all registered events. Another common database type would be a configuration database of the system, containing all the information related to how the system was set up. SCADA systems don’t have to be split into multiple databases but it can be seen in various solutions.\
+
+### Structure
+
+Most SCADA systems use databases based on SQL. This very advantageous over self built repositories. SQL is a very common language used in the field of databases making them easy to expand and integrate with other software used for maintenance of SCADA systems. Although databases for SCADA systems are usually structured relationally, it is not uncommon to see other data structures.\\
+Databases in the general context can be categorised based on content ( text, images or file types) or application area ( production or maintenance). A different way to categorise databases is according to their data structure.
+
+#### Here are some common database structure types:\
+* **Relational Database:** Organises data in rows and columns, with each row having a unique primary key. Examples include Access, MySQL, and SQL Server.
+* **Object-Oriented Database (OODB):** Stores data in objects containing both data and procedures. Examples include GemFire and Versant.
+* **Object-Relational Database:** Combines elements of both relational and object-oriented databases. Examples include DB2, Oracle, and Visual FoxPro.
+* **Multidimensional Database:** Stores data in dimensions, allowing for more than two dimensions and facilitating flexible data access. Examples include Oracle Express.
+
+When designing a database, it's crucial to determine its purpose, design tables or files for each subject, establish records and fields, define relationships, and ensure efficient data management.
 ## Sources: 
 
 * [copadata.com](https://www.copadata.com/pl/product/zenon-software-platform-platforma-programowa-firmy-copa-data/wizualizacja-kontrola/co-to-jest-scada/)
@@ -200,3 +219,8 @@ End users are presenting new challenges, pushing vendors to rethink operational 
 * [dcs wikipedia.com](https://en.wikipedia.org/wiki/Distributed_control_system)
 * [yokogawa.com](https://www.yokogawa.com/eu/library/resources/white-papers/what-are-the-roles-of-dcs-and-scada-in-digital-transformation/)
 * [automation.com](https://www.automation.com/en-us/articles/september-2021/roles-dcs-scada-digital-transformation)
+* [Lamb, Frank. 2013. “Software.” Chap. 6 in Industrial Automation: Hands-On. 1st ed. New York: McGraw-Hill Education.](https://www-1accessengineeringlibrary-1com-1000022uo0007.han.bg.pg.edu.pl/content/book/9780071816458/chapter/chapter6)
+* [laquisscada.com](https://laquisscada.com/blogger/database-how-to-create-a-database/)
+* [d2000.ipesoft.com](https://d2000.ipesoft.com/blog/databases-in-scada-and-mes-systems/)
+* [teslascada.com](https://teslascada.com/HTML/databases2.html)
+

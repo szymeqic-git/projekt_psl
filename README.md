@@ -9,6 +9,7 @@
 * [SCADA and Distributed Control System](#scada-and-distributed-control-system)
 * [SCADA Databases](#scada-databases)
 * [Sources](#sources)
+* [Authors](#authors)
   
 
 
@@ -249,3 +250,12 @@ When designing a database, it's crucial to determine its purpose, design tables 
 * [teslascada.com](https://teslascada.com/HTML/databases2.html)
 * [electrical-engineering-portal.com](https://electrical-engineering-portal.com/three-generations-of-scada-system-architectures)
 
+## Authors:
+Agnieszka Stromska 188560
+Oliwer Losvik 188629
+Jakub Kabat 191339
+Miłosz Smolarczyk 189008
+Szymon Kowalski 188795
+Jakub Siciarek 188642
+Bartosz Krajewski 189655
+Marcel Krużycki 188734

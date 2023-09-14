@@ -76,13 +76,13 @@ In remote areas where local infrastructure is scarce or nonexistent, it is not u
 
 #### Programmable logic controllers (**PLC**)
 
-These devices, commonly referred to as ****PLC**s**, interface with sensors and actuators within industrial processes and establish connections with a central supervisory system. In the realm of factory automation, ****PLC**s** are typically equipped with high-speed links to the **SCADA** system. In remote scenarios, such as in the context of a large water treatment facility, ****PLC**s** can either directly link up with **SCADA** via:
+These devices, commonly referred to as **PLCs**, interface with sensors and actuators within industrial processes and establish connections with a central supervisory system. In the realm of factory automation, **PLCs** are typically equipped with high-speed links to the **SCADA** system. In remote scenarios, such as in the context of a large water treatment facility, ****PLC**s** can either directly link up with **SCADA** via:
 
 * wireless connections
 *  _(more frequently)_, employ an **RTU** to manage communication.
 
 
-****PLC**s** are purpose-built for control purposes and played a pivotal role in the development of the _IEC 61131-3_ programming languages. They are often preferred for cost-effective reasons in remote installations with a significant number of input and output connections, as opposed to relying solely on an **RTU**.
+**PLCs** are purpose-built for control purposes and played a pivotal role in the development of the _IEC 61131-3_ programming languages. They are often preferred for cost-effective reasons in remote installations with a significant number of input and output connections, as opposed to relying solely on an **RTU**.
 
 #### Communication infrastructure - Radio/Modems & Sensors/Transducers & Repeaters
 
@@ -118,14 +118,14 @@ Modern carrier-class systems provide the necessary quality of service for **SCAD
 #### **SCADA** Supervisory Computers
 
 In small **SCADA** systems, the master station is a single computer that communicates with controls systems and other equipment. 
-In larger **SCADA** systems, this can include multiple servers, software applications, remote terminal units (**RTUs**), and programmable logic circuits (****PLC**s**). This forms the central nucleus of the **SCADA** system, responsible for both gathering data from the industrial process and dispatching control instructions to the connected field devices. It encompasses:
+In larger **SCADA** systems, this can include multiple servers, software applications, remote terminal units (**RTUs**), and programmable logic circuits (**PLCs**). This forms the central nucleus of the **SCADA** system, responsible for both gathering data from the industrial process and dispatching control instructions to the connected field devices. It encompasses:
 
-* computer hardware and software that manages communication with the field connection controllers -  **RTUs** and ****PLC**s**
+* computer hardware and software that manages communication with the field connection controllers -  **RTUs** and **PLCs**
 *  the **HMI** software running on operator workstations.
 
 In smaller-scale **SCADA** setups, the supervisory computer may consist of a single PC, in which case the **HMI** is integrated into this same computer.
 Conversely, larger **SCADA** systems often feature:
-* a master station with multiple ****HMI**s** hosted on client computers
+* a master station with multiple **HMIs** hosted on client computers
 * numerous servers for data collection
 * distributed software applications
 * contingency sites for disaster recovery.
@@ -187,7 +187,7 @@ While **SCADA** systems may offer specialized features tailored to various indus
 
  3. Networked Data Communication: Effective communication is crucial in **SCADA**. Data obtained from sensors must be efficiently transmitted to **SCADA** field controllers, which, in turn, establish communication with the **SCADA** supervisory computers. Additionally, remote control commands are sent from the **SCADA** supervisory computers to actuators.
 
- 4. Data Presentation: Human-Machine Interfaces (**HMI**s) play a pivotal role in **SCADA** systems by visually representing both current and historical data to operators. **HMI**s provide an intuitive interface for operators to interact with the system.
+ 4. Data Presentation: Human-Machine Interfaces (**HMIs**) play a pivotal role in **SCADA** systems by visually representing both current and historical data to operators. **HMIs** provide an intuitive interface for operators to interact with the system.
 
  5. Real-time and Historical Data: **SCADA** systems incorporate both real-time and historical data. Real-time data allows users to monitor the current state of processes, while historical data enables the tracking of performance against past trends.
 
@@ -269,19 +269,19 @@ Communication with automation equipment (e.g., **PLC** controllers) and ensure r
 
 ## **SCADA** and Distributed Control System
 ### Seperate Systems
- A DCS (Distributed Control System) and **SCADA** are used for industrial automation to control and monitor processes; they are designed for different applications. **SCADA** is used for monitoring and basic control of geographically scattered operations, whereas DCS is used for exact control of complicated processes. There are many differences between them, from safety, processing times to industries where there are used.
+ A **DCS** _(Distributed Control System)_ and **SCADA** are used for industrial automation to control and monitor processes; they are designed for different applications. **SCADA** is used for monitoring and basic control of geographically scattered operations, whereas **DCS** is used for exact control of complicated processes. There are many differences between them, from safety, processing times to industries where there are used.
  ![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/82d6726b-b42f-4aa3-8ccf-d8c791c17b12)
 
 ### Architecture
- DCS and **SCADA** systems are built following the ISA95 Purdue reference model architecture, which consists of five levels. The first level encompasses devices, actuators, and sensors on the production floor, while the second level utilizes **PLC**s and PID controllers to interface with field-level devices. In the third level, traditionally occupied by **SCADA** systems, data is funneled to support process control, asset management, historical analysis, and IT applications. DCS systems may include servers that can be considered part of a **SCADA** system, connecting corporate and IT systems.\ 
+ **DCS** and **SCADA** systems are built following the ISA95 Purdue reference model architecture, which consists of five levels. The first level encompasses devices, actuators, and sensors on the production floor, while the second level utilizes **PLCs** and PID controllers to interface with field-level devices. In the third level, traditionally occupied by **SCADA** systems, data is funneled to support process control, asset management, historical analysis, and IT applications. **DCS** systems may include servers that can be considered part of a **SCADA** system, connecting corporate and IT systems.\ 
 ![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/bcb8823a-c7eb-420d-82c8-1bb4253631ff)
 
- Modern DCS and **SCADA** systems encompass various software and hardware components located in the first and second levels of manufacturing control. These systems serve as a crucial bridge for digitalization, facilitating the seamless flow of information from the plant floor to the boardroom, integrating all five levels of the automation pyramid.
- Today, **SCADA** and DCS are very similar. DCS is used on large continuous process plants where high reliability and security is important, and the control room is not geographically remote.
+ Modern **DCS** and **SCADA** systems encompass various software and hardware components located in the first and second levels of manufacturing control. These systems serve as a crucial bridge for digitalization, facilitating the seamless flow of information from the plant floor to the boardroom, integrating all five levels of the automation pyramid.
+ Today, **SCADA** and **DCS** are very similar. **DCS** is used on large continuous process plants where high reliability and security is important, and the control room is not geographically remote.
 
 ### Digital transformation
  Both **DCS** (_Distributed Control Systems_) and **SCADA** (_Supervisory Control and Data Acquisition_) systems are undergoing transformations aligned with the broader digital transformation trends, including the Industrial Internet of Things (**IIoT**). This transformation aims to enhance industrial automation capabilities and deliver greater value to process manufacturers.
-End users are presenting new challenges, pushing vendors to rethink operational technology (OT) automation systems by incorporating Commercial Off-The-Shelf (COTS) hardware and software. They seek automation systems that outperform current DCSs in terms of reliability, security, and overall user value. Additionally, end users are looking for systems that allow them to preserve their control strategies when transitioning to upgraded or new systems. Modularized hardware components and decoupled software from hardware and I/O are also desired to facilitate incremental upgrades and execution flexibility within the system.
+End users are presenting new challenges, pushing vendors to rethink operational technology (OT) automation systems by incorporating Commercial Off-The-Shelf (COTS) hardware and software. They seek automation systems that outperform current **DCSs** in terms of reliability, security, and overall user value. Additionally, end users are looking for systems that allow them to preserve their control strategies when transitioning to upgraded or new systems. Modularized hardware components and decoupled software from hardware and I/O are also desired to facilitate incremental upgrades and execution flexibility within the system.
 
 ### Expansion of **SCADA**
  **SCADA** systems have evolved through four generations:
@@ -331,7 +331,14 @@ Databases in the general context can be categorised based on content ( text, ima
 * **Object-Relational Database:** Combines elements of both relational and object-oriented databases. Examples include DB2, Oracle, and Visual FoxPro.
 * **Multidimensional Database:** Stores data in dimensions, allowing for more than two dimensions and facilitating flexible data access. Examples include Oracle Express.
 
-When designing a database, it's crucial to determine its purpose, design tables or files for each subject, establish records and fields, define relationships, and ensure efficient data management.
+When designing a database, it's crucial to:
+
+* determine its purpose
+* design tables or files for each subject
+* establish records and fields
+* define relationships
+* ensure efficient data management
+  
 ## Sources: 
 
 * [copadata.com](https://www.copadata.com/pl/product/zenon-software-platform-platforma-programowa-firmy-copa-data/wizualizacja-kontrola/co-to-jest-**SCADA**/)

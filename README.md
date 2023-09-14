@@ -43,7 +43,7 @@ Tasks of **SCADA** systems:
 
 #### Schema
 
-![](https://cdn.discordapp.com/attachments/982375180401770526/1150086602945724416/panel-HMI-zamontowany-na-maszynie-automatyka-webHMI-SCADA4.jpg)
+![](https://cdn.discordapp.com/attachments/982375180401770526/1150086602945724416/panel-hmi-zamontowany-na-maszynie-automatyka-webhmi-scada4.jpg)
 
 ## Data Exchange in SCADA
 

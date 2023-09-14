@@ -258,4 +258,4 @@ Miłosz Smolarczyk 189008\
 Szymon Kowalski 188795\
 Jakub Siciarek 188642\
 Bartosz Krajewski 189655\
-Marcel Krużycki 188734\
+Marcel Krużycki 188734

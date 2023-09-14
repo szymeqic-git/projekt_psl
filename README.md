@@ -76,7 +76,7 @@ In remote areas where local infrastructure is scarce or nonexistent, it is not u
 
 #### Programmable logic controllers (**PLC**)
 
-These devices, commonly referred to as **PLCs**, interface with sensors and actuators within industrial processes and establish connections with a central supervisory system. In the realm of factory automation, **PLCs** are typically equipped with high-speed links to the **SCADA** system. In remote scenarios, such as in the context of a large water treatment facility, ****PLC**s** can either directly link up with **SCADA** via:
+These devices, commonly referred to as **PLCs**, interface with sensors and actuators within industrial processes and establish connections with a central supervisory system. In the realm of factory automation, **PLCs** are typically equipped with high-speed links to the **SCADA** system. In remote scenarios, such as in the context of a large water treatment facility, **PLCs** can either directly link up with **SCADA** via:
 
 * wireless connections
 *  _(more frequently)_, employ an **RTU** to manage communication.

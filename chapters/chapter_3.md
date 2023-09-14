@@ -7,7 +7,7 @@
 * [Sources](chapter_8.md)
 * [Authors](chapter_9.md)
 
-## **SCADA** System Components
+## SCADA System Components
 
 
 #### Remote Terminal Unit (RTU)
@@ -25,13 +25,13 @@ In remote areas where local infrastructure is scarce or nonexistent, it is not u
 
 #### Programmable logic controllers (**PLC**)
 
-These devices, commonly referred to as ****PLC**s**, interface with sensors and actuators within industrial processes and establish connections with a central supervisory system. In the realm of factory automation, ****PLC**s** are typically equipped with high-speed links to the **SCADA** system. In remote scenarios, such as in the context of a large water treatment facility, ****PLC**s** can either directly link up with **SCADA** via:
+These devices, commonly referred to as **PLCs**, interface with sensors and actuators within industrial processes and establish connections with a central supervisory system. In the realm of factory automation, **PLCs** are typically equipped with high-speed links to the **SCADA** system. In remote scenarios, such as in the context of a large water treatment facility, **PLCs** can either directly link up with **SCADA** via:
 
 * wireless connections
 *  _(more frequently)_, employ an **RTU** to manage communication.
 
 
-****PLC**s** are purpose-built for control purposes and played a pivotal role in the development of the _IEC 61131-3_ programming languages. They are often preferred for cost-effective reasons in remote installations with a significant number of input and output connections, as opposed to relying solely on an **RTU**.
+**PLCs** are purpose-built for control purposes and played a pivotal role in the development of the _IEC 61131-3_ programming languages. They are often preferred for cost-effective reasons in remote installations with a significant number of input and output connections, as opposed to relying solely on an **RTU**.
 
 #### Communication infrastructure - Radio/Modems & Sensors/Transducers & Repeaters
 
@@ -64,17 +64,17 @@ To meet increasing security requirements, such as those outlined by the North Am
 
 Modern carrier-class systems provide the necessary quality of service for **SCADA** applications, whereas earlier experiences with consumer-grade **VSAT** were less satisfactory.
 
-#### **SCADA** Supervisory Computers
+#### SCADA Supervisory Computers
 
 In small **SCADA** systems, the master station is a single computer that communicates with controls systems and other equipment. 
-In larger **SCADA** systems, this can include multiple servers, software applications, remote terminal units (**RTUs**), and programmable logic circuits (****PLC**s**). This forms the central nucleus of the **SCADA** system, responsible for both gathering data from the industrial process and dispatching control instructions to the connected field devices. It encompasses:
+In larger **SCADA** systems, this can include multiple servers, software applications, remote terminal units (**RTUs**), and programmable logic circuits (**PLCs**). This forms the central nucleus of the **SCADA** system, responsible for both gathering data from the industrial process and dispatching control instructions to the connected field devices. It encompasses:
 
-* computer hardware and software that manages communication with the field connection controllers -  **RTUs** and ****PLC**s**
+* computer hardware and software that manages communication with the field connection controllers -  **RTUs** and **PLCs**
 *  the **HMI** software running on operator workstations.
 
 In smaller-scale **SCADA** setups, the supervisory computer may consist of a single PC, in which case the **HMI** is integrated into this same computer.
 Conversely, larger **SCADA** systems often feature:
-* a master station with multiple ****HMI**s** hosted on client computers
+* a master station with multiple **HMIs** hosted on client computers
 * numerous servers for data collection
 * distributed software applications
 * contingency sites for disaster recovery.
@@ -136,10 +136,11 @@ While **SCADA** systems may offer specialized features tailored to various indus
 
  3. Networked Data Communication: Effective communication is crucial in **SCADA**. Data obtained from sensors must be efficiently transmitted to **SCADA** field controllers, which, in turn, establish communication with the **SCADA** supervisory computers. Additionally, remote control commands are sent from the **SCADA** supervisory computers to actuators.
 
- 4. Data Presentation: Human-Machine Interfaces (**HMI**s) play a pivotal role in **SCADA** systems by visually representing both current and historical data to operators. **HMI**s provide an intuitive interface for operators to interact with the system.
+ 4. Data Presentation: Human-Machine Interfaces (**HMIs**) play a pivotal role in **SCADA** systems by visually representing both current and historical data to operators. **HMIs** provide an intuitive interface for operators to interact with the system.
 
  5. Real-time and Historical Data: **SCADA** systems incorporate both real-time and historical data. Real-time data allows users to monitor the current state of processes, while historical data enables the tracking of performance against past trends.
 
  6. Alarms: **SCADA** systems include alarm functionalities that alert operators to potentially significant conditions within the system. These alarms can be customized to notify operators of process blockages, system failures, or the need for adjustments in various aspects of **SCADA** processes.
 
  7. Reporting: Reporting is a valuable aspect of **SCADA** system operations. It involves generating reports on system status, process performance, and customized reports tailored to specific application requirements. These reports provide insights into the functioning and efficiency of the **SCADA** system.
+

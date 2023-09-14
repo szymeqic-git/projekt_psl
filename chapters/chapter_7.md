@@ -8,7 +8,7 @@
 * [Sources](chapter_8.md)
 * [Authors](chapter_9.md)
   
-## **SCADA** Databases
+## SCADA Databases
 Automation systems often require efficient data storage and retrieval. Production data, including machine **OEE** (_Overall equipment effectiveness_), operator log-ins, product and password management, and historical machine information, is typically managed through interactions with a database, which essentially is an organised data collection. This data is stored for easy categorisation and future access and is designed in away to create meaningful correlations.
 
 ### Types of databases
@@ -35,3 +35,4 @@ When designing a database, it's crucial to:
 * establish records and fields
 * define relationships
 * ensure efficient data management
+  

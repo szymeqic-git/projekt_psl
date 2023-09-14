@@ -8,13 +8,13 @@
 * [Sources](chapter_8.md)
 * [Authors](chapter_9.md)
   
-## **SCADA** and Distributed Control System
+## SCADA and Distributed Control System
 ### Seperate Systems
  A **DCS** _(Distributed Control System)_ and **SCADA** are used for industrial automation to control and monitor processes; they are designed for different applications. **SCADA** is used for monitoring and basic control of geographically scattered operations, whereas **DCS** is used for exact control of complicated processes. There are many differences between them, from safety, processing times to industries where there are used.
  ![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/82d6726b-b42f-4aa3-8ccf-d8c791c17b12)
 
 ### Architecture
- **DCS** and **SCADA** systems are built following the ISA95 Purdue reference model architecture, which consists of five levels. The first level encompasses devices, actuators, and sensors on the production floor, while the second level utilizes **PLCs** and PID controllers to interface with field-level devices. In the third level, traditionally occupied by **SCADA** systems, data is funneled to support process control, asset management, historical analysis, and IT applications. **DCS** systems may include servers that can be considered part of a **SCADA** system, connecting corporate and IT systems.\ 
+ **DCS** and **SCADA** systems are built following the ISA95 Purdue reference model architecture, which consists of five levels. The first level encompasses devices, actuators, and sensors on the production floor, while the second level utilizes **PLCs** and PID controllers to interface with field-level devices. In the third level, traditionally occupied by **SCADA** systems, data is funneled to support process control, asset management, historical analysis, and IT applications. **DCS** systems may include servers that can be considered part of a **SCADA** system, connecting corporate and IT systems.
 ![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/bcb8823a-c7eb-420d-82c8-1bb4253631ff)
 
  Modern **DCS** and **SCADA** systems encompass various software and hardware components located in the first and second levels of manufacturing control. These systems serve as a crucial bridge for digitalization, facilitating the seamless flow of information from the plant floor to the boardroom, integrating all five levels of the automation pyramid.
@@ -44,7 +44,7 @@ End users are presenting new challenges, pushing vendors to rethink operational 
  The growth of the internet led to **SCADA** systems implementing web technologies, enabling users to access data, exchange information, and control processes from anywhere in the world through web socket connections. Web **SCADA** systems use internet browsers like Google Chrome and Mozilla Firefox as graphical user interfaces, simplifying client-side installation and facilitating access from various platforms, including:
 
 * servers
-*  PCs
+* PCs
 * laptops
-*  tablets
-* and mobile phones.
+* tablets
+* and mobile phones

@@ -1,7 +1,7 @@
 # **SCADA** Systems
 
 ## Table of Contents
-* [What is **SCADA**?](#what-is-**SCADA**)
+* [What is **SCADA**?](#what-is-SCADA)
 * [Data Exchange in **SCADA**](#data-exchange-in-**SCADA**)
 * [**SCADA** System Components](#**SCADA**-system-components)
 * [**SCADA** Applications](#**SCADA**-applications)
@@ -13,7 +13,7 @@
   
 
 
-## What is **SCADA**?
+## What is SCADA?
 
 ---
 

@@ -191,13 +191,17 @@ End users are presenting new challenges, pushing vendors to rethink operational 
 > SCADA systems have evolved through four generations:
 
 > * First generation ("Monolithic"):\
-> Early SCADA systems relied on large minicomputers and operated independently with no connectivity to other systems. Communication protocols were proprietary, and redundancy was achieved through backup mainframe systems.
- 
+> Early SCADA systems relied on large minicomputers and operated independently with no connectivity to other systems. Communication protocols were proprietary, and redundancy was achieved through backup mainframe systems.\
+ ![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/7252c3c8-e11a-42a6-9da1-a458df9a85f0)
+
 > * Second generation ("Distributed"):\
-> SCADA information and command processing became distributed across multiple stations connected through a LAN. Each station had specific tasks, reducing costs compared to the first generation. Network protocols were still proprietary, and security was often overlooked.
+> SCADA information and command processing became distributed across multiple stations connected through a LAN. Each station had specific tasks, reducing costs compared to the first generation. Network protocols were still proprietary, and security was often overlooked.\
+![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/a67ae0ff-71e7-4c19-a97e-051024f712d9)
 
 > * Third generation ("Networked"):\
-> Similar to distributed architecture, SCADA systems were connected through communication protocols, often spanning multiple LAN networks. This allowed for cost-effective solutions in large-scale systems.
+> Similar to distributed architecture, SCADA systems were connected through communication protocols, often spanning multiple LAN networks. This allowed for cost-effective solutions in large-scale systems.\
+![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/b34f1920-d1ed-4bf3-a1a8-4d4aed3dcf5f)
+
 
 > * Fourth generation ("Web-based"):\
 > The growth of the internet led to SCADA systems implementing web technologies, enabling users to access data, exchange information, and control processes from anywhere in the world through web socket connections. Web SCADA systems use internet browsers like Google Chrome and Mozilla Firefox as graphical user interfaces, simplifying client-side installation and facilitating access from various platforms, including servers, PCs, laptops, tablets, and mobile phones.

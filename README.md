@@ -187,7 +187,7 @@ Communication with automation equipment (e.g., PLC controllers) and ensure relia
 > Both DCS (Distributed Control Systems) and SCADA (Supervisory Control and Data Acquisition) systems are undergoing transformations aligned with the broader digital transformation trends, including the Industrial Internet of Things (IIoT). This transformation aims to enhance industrial automation capabilities and deliver greater value to process manufacturers.
 End users are presenting new challenges, pushing vendors to rethink operational technology (OT) automation systems by incorporating Commercial Off-The-Shelf (COTS) hardware and software. They seek automation systems that outperform current DCSs in terms of reliability, security, and overall user value. Additionally, end users are looking for systems that allow them to preserve their control strategies when transitioning to upgraded or new systems. Modularized hardware components and decoupled software from hardware and I/O are also desired to facilitate incremental upgrades and execution flexibility within the system.
 
-### Expantion of SCADA
+### Expansion of SCADA
 > SCADA systems have evolved through four generations:
 
 > * First generation ("Monolithic"):\

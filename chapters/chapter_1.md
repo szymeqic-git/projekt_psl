@@ -1,7 +1,7 @@
 # SCADA Systems
 
 ## Table of Contents
-* [What is SCADA?](chapter_1.md)
+* [What is SCADA? (you're here)]
 * [Data Exchange in SCADA](chapter_2.md)
 * [SCADA System Components](chapter_3.md)
 * [SCADA Applications](chapter_4.md)

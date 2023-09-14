@@ -50,8 +50,7 @@ Tasks of **SCADA** systems:
 
 #### System levels
 
->      0. On the lowest level there are _executive_ and _measuring_ devices
->
+> 0. On the lowest level there are _executive_ and _measuring_ devices
 > 1. First level cosists of **PLC** controllers 
 > 2. Level two are supervisory computers, responsible for **HMI** and transferring information to coordinating computers
 > 3. Level third’s units do not have direct influence on executive devices’ work but they monitor overall production
@@ -59,18 +58,21 @@ Tasks of **SCADA** systems:
 
 ## SCADA System Components
 #### Remote Terminal Unit (RTU)
->Remote terminal units, abbreviated as **RTUs**, establish connections with sensors and actuators within a given process and are integrated into the supervisory computer system via a network. 
+Remote terminal units, abbreviated as **RTUs**, establish connections with sensors and actuators within a given process and are integrated into the supervisory computer system via a network. 
 **RTUs** possess inherent control capabilities and frequently adhere to the _IEC 61131->3_ standard for programming, supporting automation through methods such as:
 * ladder logic
 * function block diagrams
 * a range of other programming languages.
 
->In remote areas where local infrastructure is scarce or nonexistent, it is not uncommon to encounter **RTUs** that:
+In remote areas where local infrastructure is scarce or nonexistent, it is not uncommon to encounter **RTUs** that:
 * rely on compact solar power systems for energy
 * utilize radio, GSM, or satellite communication methods
 * are built to endure harsh environmental conditions, withstanding temperatures as extreme as -40°C to +85°C, without the need for additional heating or cooling equipment.
 #### Programmable logic controllers (PLC)
->These devices, commonly referred to as PLCs, interface with sensors and actuators within industrial processes and establish connections with a central supervisory system. In the realm of factory automation, PLCs are typically equipped with high-speed links to the >SCADA system. In remote scenarios, such as in the context of a large water treatment facility, PLCs can either directly link up with SCADA via wireless connections or, more frequently, employ an RTU to manage communication. PLCs are purpose-built for control purposes >and played a pivotal role in the development of the IEC 61131-3 programming languages. They are often preferred for cost-effective reasons in remote installations with a significant number of input and output connections, as opposed to relying solely on an RTU.
+These devices, commonly referred to as **PLCs**, interface with sensors and actuators within industrial processes and establish connections with a central supervisory system. In the realm of factory automation, **PLCs** are typically equipped with high-speed links to the **SCADA** system. In remote scenarios, such as in the context of a large water treatment facility, **PLCs** can either directly link up with **SCADA** via:
+* wireless connections
+*  _(more frequently)_, employ an **RTU** to manage communication.
+ **PLCs** are purpose-built for control purposes and played a pivotal role in the development of the _IEC 61131-3_ programming languages. They are often preferred for cost-effective reasons in remote installations with a significant number of input and output connections, as opposed to relying solely on an **RTU**.
 #### Communication infrastructure - Radio/Modems & Sensors/Transducers & Repeaters
 >Radio/Modems allows for the transfer of data (usually wireless) across a large geographic area. A key component of a SCADA system is the ability to send and receive real-time data. Radio/modems are an efficient and reliable mode of accomplishing this feat.
 >Sensor is a type of transducer that can receive a signal from a physical system. It communicates information through the use of telemetry (and a control system). The sensor in a SCADA system serves to help operators measure and collect data from a remote location.

@@ -247,4 +247,5 @@ When designing a database, it's crucial to determine its purpose, design tables 
 * [laquisscada.com](https://laquisscada.com/blogger/database-how-to-create-a-database/)
 * [d2000.ipesoft.com](https://d2000.ipesoft.com/blog/databases-in-scada-and-mes-systems/)
 * [teslascada.com](https://teslascada.com/HTML/databases2.html)
+* [electrical-engineering-portal.com](https://electrical-engineering-portal.com/three-generations-of-scada-system-architectures)
 

@@ -6,7 +6,7 @@
 * [SCADA System Components](#scada-system-components)
 * [SCADA Applications](#scada-applications)
 * [Operating Station](#operating-station)
-* [SCADA Distributed Control System](#scada-distributed-control-system)
+* [SCADA and Distributed Control System](#scada-and-distributed-control-system)
 * [SCADA Databases](#scada-databases)
 * [Sources](#sources)
   
@@ -171,12 +171,23 @@ Communication with automation equipment (e.g., PLC controllers) and ensure relia
 > 6. Data exchange with other applications (e.g., spreadsheets and databases).
 > 7. Scalability (i.e., the ability to expand) of the control system.
 
-## SCADA Distributed Control System
+## SCADA and Distributed Control System
+### Seperate Systems
+A DCS (Distributed Control System) and SCADA are used for industrial automation to control and monitor processes; they are designed for different applications. SCADA is used for monitoring and basic control of geographically scattered operations, whereas DCS is used for exact control of complicated processes. There are many differences between them, from safety, processing times to industries where there are used.
+![image](https://github.com/szymeqic-git/projekt_psl/assets/106694089/82d6726b-b42f-4aa3-8ccf-d8c791c17b12)
+
+Today, SCADA and DCS are very similar. DCS is used on large continuous process plants where high reliability and security is important, and the control room is not geographically remote.
+
+
+
 ## SCADA Databases
 ## Sources: 
 
 * [copadata.com](https://www.copadata.com/pl/product/zenon-software-platform-platforma-programowa-firmy-copa-data/wizualizacja-kontrola/co-to-jest-scada/)
 * [iautomatyka.pl](https://iautomatyka.pl/co-to-jest-scada-i-co-daje-wizualizacja-procesow-przemyslowych/)
-* [wikipedia.pl](https://pl.wikipedia.org/wiki/SCADA)
+* [scada wikipedia.pl](https://pl.wikipedia.org/wiki/SCADA)
 * [htt.io](https://htt.io/resources/scada-basics/)
 * [techtarget.com](https://www.techtarget.com/whatis/definition/SCADA-supervisory-control-and-data-acquisition)
+* [tutorialspoint.com](https://www.tutorialspoint.com/difference-between-dcs-and-scada)
+* [dcs wikipedia.com](https://en.wikipedia.org/wiki/Distributed_control_system)
+* 
